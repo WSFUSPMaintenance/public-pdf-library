@@ -1,1 +1,0 @@
-Beko Air Dryer

@@ -1,1 +1,0 @@
-Graco Diaphragm Pump

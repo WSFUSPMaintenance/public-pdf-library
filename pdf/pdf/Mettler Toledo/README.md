@@ -1,1 +1,0 @@
-Mettler Toledo
