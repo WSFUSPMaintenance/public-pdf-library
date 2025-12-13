@@ -34,17 +34,16 @@
     { "name": "Munters", "path": "pdf/Munters", "files": [] },
     { "name": "Offal Augers", "path": "pdf/Offal Augers", "files": [] },
     {
-  "name": "Phoenix Innovations",
-  "path": "pdf/Phoenix Innovations",
-  "files": [
-    { "title": "Tender Chiller", "file": "TenderChiller.pdf" },
-    { "title": "Breast Chiller 1", "file": "BreastChiller1.pdf" },
-    { "title": "Breast Chiller 2", "file": "BreastChiller2.pdf" },
-    { "title": "Thigh Chiller", "file": "ThighChiller.pdf" },
-    { "title": "Wing Chiller", "file": "WingChiller.pdf" }
-  ]
-}
-
+      "name": "Phoenix Innovations",
+      "path": "pdf/Phoenix Innovations",
+      "files": [
+        { "title": "Tender Chiller", "file": "TenderChiller.pdf" },
+        { "title": "Breast Chiller 1", "file": "BreastChiller1.pdf" },
+        { "title": "Breast Chiller 2", "file": "BreastChiller2.pdf" },
+        { "title": "Thigh Chiller", "file": "ThighChiller.pdf" },
+        { "title": "Wing Chiller", "file": "WingChiller.pdf" }
+     ]
+   }
     { "name": "Poly Clip Systems", "path": "pdf/Poly Clip Systems", "files": [] },
     { "name": "Prime", "path": "pdf/Prime", "files": [] },
     { "name": "Raymond Lifts", "path": "pdf/Raymond Lifts", "files": [] },
