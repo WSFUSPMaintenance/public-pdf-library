@@ -1,39 +1,286 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Public Document Library</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Document Access</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      padding: 20px;
-    }
-    h1 {
-      text-align: center;
-    }
-    a {
-      display: block;
-      padding: 16px;
-      margin: 12px 0;
-      background-color: #ffffff;
-      color: #000000;
-      text-decoration: none;
-      border-radius: 6px;
-      font-size: 18px;
-      text-align: center;
-    }
-    a:hover {
-      background-color: #e6e6e6;
-    }
+    body { font-family: Arial, sans-serif; background:#f4f4f4; padding:18px; margin:0; }
+    .wrap { max-width: 900px; margin: 0 auto; }
+    h1 { text-align:center; margin: 8px 0 14px 0; }
+    .card { background:#fff; border-radius:10px; padding:14px; box-shadow: 0 1px 6px rgba(0,0,0,0.08); margin-bottom:12px; }
+    .row { display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+    input[type="text"] { flex: 1 1 260px; padding:12px; border-radius:8px; border:1px solid #ccc; font-size:16px; }
+    button { padding:12px 14px; border-radius:8px; border:0; background:#111; color:#fff; font-size:15px; cursor:pointer; }
+    button:disabled { opacity:0.5; cursor:not-allowed; }
+    .grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap:12px; }
+    .tile { display:block; padding:16px; border-radius:10px; background:#fff; text-decoration:none; color:#000; border:1px solid #e6e6e6; }
+    .tile:hover { background:#f0f0f0; }
+    .muted { color:#666; font-size:13px; margin:6px 0 0 0; }
+    .list a { display:block; padding:14px; margin:10px 0; background:#fff; border-radius:10px; text-decoration:none; color:#000; border:1px solid #e6e6e6; }
+    .list a:hover { background:#f0f0f0; }
+    .pill { display:inline-block; padding:6px 10px; border-radius:999px; background:#eee; font-size:12px; margin-left:8px; }
+    .error { color:#b00020; }
   </style>
 </head>
 <body>
+  <div class="wrap">
+    <h1>Document Access</h1>
 
-<h1>Document Access</h1>
+    <div class="card">
+      <div class="row">
+        <input id="q" type="text" placeholder="Search folders or manuals, example: CVP" autocomplete="off" />
+        <button id="homeBtn" type="button" disabled>Home</button>
+      </div>
+      <div id="status" class="muted">Loading…</div>
+    </div>
 
-<a href="pdf/BreastChiller1.pdf">Breast Chiller 1</a>
+    <div id="view" class="card"></div>
+  </div>
 
+  <script>
+    const state = {
+      data: null,
+      mode: "home", // home | folder | search
+      folderIndex: null
+    };
+
+    const elQ = document.getElementById("q");
+    const elHomeBtn = document.getElementById("homeBtn");
+    const elStatus = document.getElementById("status");
+    const elView = document.getElementById("view");
+
+    function esc(s) {
+      return String(s).replace(/[&<>"']/g, m => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[m]));
+    }
+
+    function setStatus(msg, isError = false) {
+      elStatus.className = isError ? "muted error" : "muted";
+      elStatus.textContent = msg;
+    }
+
+    function setHomeEnabled(enabled) {
+      elHomeBtn.disabled = !enabled;
+    }
+
+    function toHome() {
+      state.mode = "home";
+      state.folderIndex = null;
+      elQ.value = "";
+      render();
+    }
+
+    function openFolder(idx) {
+      state.mode = "folder";
+      state.folderIndex = idx;
+      render();
+    }
+
+    function fileUrl(folder, fileName) {
+      const base = folder.path.replace(/\/+$/, "");
+      const f = String(fileName).replace(/^\/+/, "");
+      return `${base}/${f}`;
+    }
+
+    function renderHomeGrid(filteredFolders) {
+      const folders = filteredFolders ?? state.data.folders;
+      if (!folders.length) {
+        elView.innerHTML = `<div class="muted">No folders match your search.</div>`;
+        return;
+      }
+
+      let html = `<div class="grid">`;
+      folders.forEach((f, i) => {
+        const count = Array.isArray(f.files) ? f.files.length : 0;
+        html += `
+          <a class="tile" href="#" data-folder="${i}">
+            <div><strong>${esc(f.name)}</strong> <span class="pill">${count} file${count === 1 ? "" : "s"}</span></div>
+            <div class="muted">${esc(f.path)}</div>
+          </a>
+        `;
+      });
+      html += `</div>`;
+      elView.innerHTML = html;
+
+      [...elView.querySelectorAll("[data-folder]")].forEach(a => {
+        a.addEventListener("click", (e) => {
+          e.preventDefault();
+          const idx = Number(a.getAttribute("data-folder"));
+          openFolder(idx);
+        });
+      });
+    }
+
+    function renderFolder(idx) {
+      const f = state.data.folders[idx];
+      if (!f) {
+        setStatus("Folder not found.", true);
+        toHome();
+        return;
+      }
+
+      const files = Array.isArray(f.files) ? f.files : [];
+      let html = `
+        <div class="row" style="justify-content:space-between;">
+          <div>
+            <strong style="font-size:18px;">${esc(f.name)}</strong>
+            <div class="muted">${esc(f.path)}</div>
+          </div>
+          <button type="button" id="backBtn">Back</button>
+        </div>
+        <div class="list" style="margin-top:10px;">
+      `;
+
+      if (!files.length) {
+        html += `<div class="muted">No files listed for this folder yet.</div>`;
+      } else {
+        files.forEach(file => {
+          const title = file.title || file.file || "Untitled";
+          const href = fileUrl(f, file.file);
+          html += `<a href="${esc(href)}" target="_blank" rel="noopener">${esc(title)}</a>`;
+        });
+      }
+
+      html += `</div>`;
+      elView.innerHTML = html;
+
+      document.getElementById("backBtn").addEventListener("click", () => {
+        state.mode = "home";
+        state.folderIndex = null;
+        render();
+      });
+    }
+
+    function renderSearchResults(query) {
+      const q = query.trim().toLowerCase();
+      if (!q) {
+        state.mode = "home";
+        render();
+        return;
+      }
+
+      const folders = state.data.folders || [];
+
+      const folderMatches = folders.filter(f => String(f.name || "").toLowerCase().includes(q));
+
+      const fileMatches = [];
+      folders.forEach((f, idx) => {
+        const files = Array.isArray(f.files) ? f.files : [];
+        files.forEach(file => {
+          const title = (file.title || "").toLowerCase();
+          const fname = (file.file || "").toLowerCase();
+          if (title.includes(q) || fname.includes(q)) {
+            fileMatches.push({ folderIndex: idx, folder: f, file });
+          }
+        });
+      });
+
+      let html = "";
+
+      if (folderMatches.length) {
+        html += `<div class="muted" style="margin-bottom:8px;"><strong>Folders</strong></div>`;
+        html += `<div class="grid">`;
+        folderMatches.forEach(f => {
+          const idx = folders.indexOf(f);
+          const count = Array.isArray(f.files) ? f.files.length : 0;
+          html += `
+            <a class="tile" href="#" data-folder="${idx}">
+              <div><strong>${esc(f.name)}</strong> <span class="pill">${count} file${count === 1 ? "" : "s"}</span></div>
+              <div class="muted">${esc(f.path)}</div>
+            </a>
+          `;
+        });
+        html += `</div>`;
+      }
+
+      if (fileMatches.length) {
+        html += `<div class="muted" style="margin:14px 0 8px 0;"><strong>Manuals</strong></div>`;
+        html += `<div class="list">`;
+        fileMatches.forEach(m => {
+          const title = m.file.title || m.file.file || "Untitled";
+          const href = fileUrl(m.folder, m.file.file);
+          html += `<a href="${esc(href)}" target="_blank" rel="noopener">${esc(title)} <span class="pill">${esc(m.folder.name)}</span></a>`;
+        });
+        html += `</div>`;
+      }
+
+      if (!folderMatches.length && !fileMatches.length) {
+        html = `<div class="muted">No results for "${esc(query)}".</div>`;
+      }
+
+      elView.innerHTML = html;
+
+      [...elView.querySelectorAll("[data-folder]")].forEach(a => {
+        a.addEventListener("click", (e) => {
+          e.preventDefault();
+          const idx = Number(a.getAttribute("data-folder"));
+          openFolder(idx);
+        });
+      });
+    }
+
+    function render() {
+      if (!state.data) return;
+
+      if (state.mode === "home") {
+        setHomeEnabled(false);
+        setStatus(`Folders: ${state.data.folders.length}. Type to search, or tap a folder.`);
+        renderHomeGrid();
+        return;
+      }
+
+      setHomeEnabled(true);
+
+      if (state.mode === "folder") {
+        setStatus("Tap a manual to open it.");
+        renderFolder(state.folderIndex);
+        return;
+      }
+
+      if (state.mode === "search") {
+        setStatus("Search results below.");
+        renderSearchResults(elQ.value);
+      }
+    }
+
+    elHomeBtn.addEventListener("click", toHome);
+
+    let t = null;
+    elQ.addEventListener("input", () => {
+      clearTimeout(t);
+      t = setTimeout(() => {
+        const q = elQ.value.trim();
+        if (!q) {
+          state.mode = "home";
+          state.folderIndex = null;
+          render();
+          return;
+        }
+        state.mode = "search";
+        state.folderIndex = null;
+        render();
+      }, 120);
+    });
+
+    fetch("folders.json", { cache: "no-store" })
+      .then(r => {
+        if (!r.ok) throw new Error("Could not load folders.json");
+        return r.json();
+      })
+      .then(data => {
+        if (!data || !Array.isArray(data.folders)) throw new Error("folders.json format invalid");
+        state.data = data;
+        setStatus("Loaded. Type to search, or tap a folder.");
+        render();
+      })
+      .catch(err => {
+        setStatus(err.message, true);
+        elView.innerHTML = `
+          <div class="muted error">
+            Could not load folders.json. Make sure it is in the repo root and committed.
+          </div>
+        `;
+      });
+  </script>
 </body>
 </html>
