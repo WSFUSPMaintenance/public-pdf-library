@@ -1,0 +1,25 @@
+{
+  "folders": [
+    {
+      "name": "CVP",
+      "path": "pdf/CVP",
+      "files": [
+        { "title": "Example Manual 1", "file": "Example_Manual_1.pdf" }
+      ]
+    },
+    {
+      "name": "Marel",
+      "path": "pdf/Marel",
+      "files": [
+        { "title": "Example Manual 1", "file": "Example_Manual_1.pdf" }
+      ]
+    },
+    {
+      "name": "Breast Chiller",
+      "path": "pdf/BreastChiller",
+      "files": [
+        { "title": "Breast Chiller 1", "file": "BreastChiller1.pdf" }
+      ]
+    }
+  ]
+}
