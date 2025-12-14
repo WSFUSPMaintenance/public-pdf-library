@@ -1,13 +1,188 @@
 {
   "folders": [
-    { "name": "Applied Air (Evis Heater Units)", "path": "pdf/Applied Air (Evis Heater Units)", "files": [] },
-    { "name": "Baader Linco", "path": "pdf/Baader Linco", "files": [] },
-    { "name": "Beko Air Dryer", "path": "pdf/Beko Air Dryer", "files": [] },
-    { "name": "Berry Equipment", "path": "pdf/Berry Equipment", "files": [] },
-    { "name": "Box Machines", "path": "pdf/Box Machines", "files": [] },
-    { "name": "Bright Coop", "path": "pdf/Bright Coop", "files": [] },
+    {
+      "name": "Applied Air (Evis Heater Units)",
+      "path": "pdf/Applied Air (Evis Heater Units)",
+      "files": [],
+      "categories": [
+        {
+          "name": "UNIT 1",
+          "path": "pdf/Applied Air (Evis Heater Units)/UNIT 1",
+          "files": [
+            { "title": "54542 WD", "file": "54542 WD.pdf" }
+          ]
+        },
+        {
+          "name": "UNIT 2",
+          "path": "pdf/Applied Air (Evis Heater Units)/UNIT 2",
+          "files": [
+            { "title": "54543", "file": "54543.pdf" }
+          ]
+        },
+        {
+          "name": "UNIT 3",
+          "path": "pdf/Applied Air (Evis Heater Units)/UNIT 3",
+          "files": [
+            { "title": "41555", "file": "41555.pdf" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Baader Linco",
+      "path": "pdf/Baader Linco",
+      "files": [],
+      "categories": [
+        {
+          "name": "BREAST SKINNER",
+          "path": "pdf/Baader Linco/BREAST SKINNER",
+          "files": [
+            { "title": "625 Skinner 2016", "file": "625 Skinner 2016.pdf" },
+            { "title": "6250006482_D", "file": "6250006482_D.pdf" },
+            { "title": "6250096482_D", "file": "6250096482_D.pdf" },
+            { "title": "Allen Bradley Wiring Schematic", "file": "Allen Bradley Wiring Schematic.pdf" },
+            { "title": "BA625 Skinner Manual", "file": "BA625 Skinner Manual.pdf" },
+            { "title": "BA625 Skinner Rev Z", "file": "BA625 Skinner Rev Z.pdf" },
+            { "title": "wireing schematic for skinner", "file": "wireing schematic for skinner.pdf" }
+          ]
+        },
+        {
+          "name": "Breast Skinner Training Video",
+          "path": "pdf/Baader Linco/Breast Skinner Training Video",
+          "files": [
+            { "title": "Skinner 625 Maintenance", "file": "Skinner 625 Maintenance.mp4" }
+          ]
+        },
+        {
+          "name": "OIL SAC CUTTER",
+          "path": "pdf/Baader Linco/OIL SAC CUTTER",
+          "files": [
+            { "title": "BA1279.1 180 rev C", "file": "BA1279.1 180 rev C.pdf" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Beko Air Dryer",
+      "path": "pdf/Beko Air Dryer",
+      "files": [
+        { "title": "CLEARPOINT_W_S040-M030_de_gb_fr_nl_1205", "file": "CLEARPOINT_W_S040-M030_de_gb_fr_nl_1205.pdf" },
+        { "title": "DRYPOINT_RAX_20-500_NA_manual_en_2012", "file": "DRYPOINT_RAX_20-500_NA_manual_en_2012.pdf" }
+      ]
+    },
+
+    {
+      "name": "Berry Equipment",
+      "path": "pdf/Berry Equipment",
+      "files": [
+        { "title": "BK 232 - Head Puller-G2 Rev A", "file": "BK 232 - Head Puller-G2 Rev A.pdf" }
+      ]
+    },
+
+    {
+      "name": "Box Machines",
+      "path": "pdf/Box Machines",
+      "files": [],
+      "categories": [
+        {
+          "name": "759-R_Operation & Maintenance",
+          "path": "pdf/Box Machines/759-R_Operation & Maintenance",
+          "files": [
+            { "title": "759-R_Elec Schematics", "file": "759-R_Elec Schematics.pdf" },
+            { "title": "759-R_Illustrations", "file": "759-R_Illustrations.pdf" },
+            { "title": "759-R_Operation & Maintenance", "file": "759-R_Operation & Maintenance.pdf" },
+            { "title": "759-R_Settings", "file": "759-R_Settings.pdf" },
+            { "title": "759-R_Spares", "file": "759-R_Spares.pdf" }
+          ]
+        },
+        {
+          "name": "4269-R_Operation & Maintenance",
+          "path": "pdf/Box Machines/4269-R_Operation & Maintenance",
+          "files": [
+            { "title": "4269-R_Elec Schematics", "file": "4269-R_Elec Schematics.pdf" },
+            { "title": "4269-R_Illustrations", "file": "4269-R_Illustrations.pdf" },
+            { "title": "4269-R_Operation & Maintenance", "file": "4269-R_Operation & Maintenance.pdf" },
+            { "title": "4269-R_Settings", "file": "4269-R_Settings.pdf" },
+            { "title": "4269-R_Spares", "file": "4269-R_Spares.pdf" }
+          ]
+        },
+        {
+          "name": "A2147-R_Operation & Maintenance",
+          "path": "pdf/Box Machines/A2147-R_Operation & Maintenance",
+          "files": [
+            { "title": "A2147-R_Elec Schematics", "file": "A2147-R_Elec Schematics.pdf" },
+            { "title": "A2147-R_Illustrations", "file": "A2147-R_Illustrations.pdf" },
+            { "title": "A2147-R_Operation & Maintenance", "file": "A2147-R_Operation & Maintenance.pdf" },
+            { "title": "A2147-R_Settings", "file": "A2147-R_Settings.pdf" },
+            { "title": "A2147-R_Spares", "file": "A2147-R_Spares.pdf" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Bright Coop",
+      "path": "pdf/Bright Coop",
+      "files": [
+        { "title": "(NEW) COOP DUMP", "file": "(NEW) COOP DUMP.pdf" },
+        { "title": "091-21961T DESCRIPTION STD WITH TRANSFER CHAIN", "file": "091-21961T DESCRIPTION STD WITH TRANSFER CHAIN.pdf" },
+        { "title": "091-21963-01 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - October 2016 COLOR", "file": "091-21963-01 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - October 2016 COLOR.pdf" },
+        { "title": "091-21963-02 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - October 2016 COLOR", "file": "091-21963-02 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - October 2016 COLOR.pdf" },
+        { "title": "091-21967-01 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - Feb 2019", "file": "091-21967-01 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - Feb 2019.pdf" },
+        { "title": "091-23900 - HYDRAULIC SCHEMATIC STD DUMPER WO WASHER", "file": "091-23900 - HYDRAULIC SCHEMATIC STD DUMPER WO WASHER.pdf" },
+        { "title": "Hydraulic manifold", "file": "Hydraulic manifold.pdf" },
+        { "title": "HYDRAULIC UNIT  30 AND 40 HP Electrical X Schematic (3)", "file": "HYDRAULIC UNIT  30 AND 40 HP Electrical X Schematic (3).pdf" }
+      ]
+    },
+
     { "name": "Cantrell", "path": "pdf/Cantrell", "files": [] },
-    { "name": "CVP", "path": "pdf/CVP", "files": [] },
+
+    {
+      "name": "CVP",
+      "path": "pdf/CVP",
+      "files": [],
+      "categories": [
+        {
+          "name": "Gizzard Stand Alone CVP",
+          "path": "pdf/CVP/Gizzard Stand Alone CVP",
+          "files": [
+            { "title": "B44_48_61", "file": "B44_48_61.pdf" },
+            { "title": "B52", "file": "B52.pdf" },
+            { "title": "B71", "file": "B71.pdf" },
+            { "title": "B73", "file": "B73.pdf" },
+            { "title": "MarkIII Manual", "file": "MarkIII Manual.pdf" }
+          ]
+        },
+        {
+          "name": "3 Head CVP",
+          "path": "pdf/CVP/3 Head CVP",
+          "files": [
+            { "title": "0243-0933 REV C", "file": "0243-0933 REV C.pdf" },
+            { "title": "0243-0944 REV A pnu", "file": "0243-0944 REV A pnu.pdf" },
+            { "title": "1110-0166 REV D pnu", "file": "1110-0166 REV D pnu.pdf" },
+            { "title": "1110-0269 REV C", "file": "1110-0269 REV C.pdf" },
+            { "title": "M-0243-0943 REV B", "file": "M-0243-0943 REV B.pdf" },
+            { "title": "M-1110-0278 REV A", "file": "M-1110-0278 REV A.pdf" }
+          ]
+        },
+        {
+          "name": "4 Head CVP",
+          "path": "pdf/CVP/4 Head CVP",
+          "files": [
+            { "title": "0243-0879 REV A", "file": "0243-0879 REV A.pdf" },
+            { "title": "1110-0166 REV B", "file": "1110-0166 REV B.pdf" },
+            { "title": "1110-0209 REV A", "file": "1110-0209 REV A.pdf" },
+            { "title": "1110-0209 REV C Gefran", "file": "1110-0209 REV C Gefran.pdf" },
+            { "title": "9743-1481 REV -", "file": "9743-1481 REV -.pdf" },
+            { "title": "CONVEYOR MANUAL", "file": "CONVEYOR MANUAL.pdf" },
+            { "title": "M- 1110-0161 REV D", "file": "M- 1110-0161 REV D.pdf" }
+          ]
+        }
+      ]
+    },
+
     { "name": "D&F Equipment", "path": "pdf/D&F Equipment", "files": [] },
     { "name": "DAF Schematic", "path": "pdf/DAF Schematic", "files": [] },
     { "name": "EKKO Material Handling", "path": "pdf/EKKO Material Handling", "files": [] },
