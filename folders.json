@@ -37,12 +37,17 @@
     {
       "name": "Phoenix Innovations",
       "path": "pdf/Phoenix Innovations",
-      "files": [
-        { "title": "Tender Chiller", "file": "TenderChiller.pdf" },
-        { "title": "Breast Chiller 1", "file": "BreastChiller1.pdf" },
-        { "title": "Breast Chiller 2", "file": "BreastChiller2.pdf" },
-        { "title": "Thigh Chiller", "file": "ThighChiller.pdf" },
-        { "title": "Wing Chiller", "file": "WingChiller.pdf" }
+      "categories": [
+        {
+          "name": "Parts Chillers",
+          "path": "pdf/Phoenix Innovations/Parts Chillers",
+          "files": []
+        },
+        {
+          "name": "Heat Exchangers (HEX)",
+          "path": "pdf/Phoenix Innovations/Heat Exchangers (HEX)",
+          "files": []
+        }
       ]
     },
 
