@@ -67,17 +67,31 @@
     {
       "name": "Beko Air Dryer",
       "path": "pdf/Beko Air Dryer",
-      "files": [
-        { "title": "CLEARPOINT_W_S040-M030_de_gb_fr_nl_1205", "file": "CLEARPOINT_W_S040-M030_de_gb_fr_nl_1205.pdf" },
-        { "title": "DRYPOINT_RAX_20-500_NA_manual_en_2012", "file": "DRYPOINT_RAX_20-500_NA_manual_en_2012.pdf" }
+      "files": [],
+      "categories": [
+        {
+          "name": "Documents",
+          "path": "pdf/Beko Air Dryer",
+          "files": [
+            { "title": "CLEARPOINT_W_S040-M030_de_gb_fr_nl_1205", "file": "CLEARPOINT_W_S040-M030_de_gb_fr_nl_1205.pdf" },
+            { "title": "DRYPOINT_RAX_20-500_NA_manual_en_2012", "file": "DRYPOINT_RAX_20-500_NA_manual_en_2012.pdf" }
+          ]
+        }
       ]
     },
 
     {
       "name": "Berry Equipment",
       "path": "pdf/Berry Equipment",
-      "files": [
-        { "title": "BK 232 - Head Puller-G2 Rev A", "file": "BK 232 - Head Puller-G2 Rev A.pdf" }
+      "files": [],
+      "categories": [
+        {
+          "name": "Documents",
+          "path": "pdf/Berry Equipment",
+          "files": [
+            { "title": "BK 232 - Head Puller-G2 Rev A", "file": "BK 232 - Head Puller-G2 Rev A.pdf" }
+          ]
+        }
       ]
     },
 
@@ -125,15 +139,22 @@
     {
       "name": "Bright Coop",
       "path": "pdf/Bright Coop",
-      "files": [
-        { "title": "(NEW) COOP DUMP", "file": "(NEW) COOP DUMP.pdf" },
-        { "title": "091-21961T DESCRIPTION STD WITH TRANSFER CHAIN", "file": "091-21961T DESCRIPTION STD WITH TRANSFER CHAIN.pdf" },
-        { "title": "091-21963-01 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - October 2016 COLOR", "file": "091-21963-01 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - October 2016 COLOR.pdf" },
-        { "title": "091-21963-02 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - October 2016 COLOR", "file": "091-21963-02 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - October 2016 COLOR.pdf" },
-        { "title": "091-21967-01 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - Feb 2019", "file": "091-21967-01 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - Feb 2019.pdf" },
-        { "title": "091-23900 - HYDRAULIC SCHEMATIC STD DUMPER WO WASHER", "file": "091-23900 - HYDRAULIC SCHEMATIC STD DUMPER WO WASHER.pdf" },
-        { "title": "Hydraulic manifold", "file": "Hydraulic manifold.pdf" },
-        { "title": "HYDRAULIC UNIT  30 AND 40 HP Electrical X Schematic (3)", "file": "HYDRAULIC UNIT  30 AND 40 HP Electrical X Schematic (3).pdf" }
+      "files": [],
+      "categories": [
+        {
+          "name": "Documents",
+          "path": "pdf/Bright Coop",
+          "files": [
+            { "title": "(NEW) COOP DUMP", "file": "(NEW) COOP DUMP.pdf" },
+            { "title": "091-21961T DESCRIPTION STD WITH TRANSFER CHAIN", "file": "091-21961T DESCRIPTION STD WITH TRANSFER CHAIN.pdf" },
+            { "title": "091-21963-01 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - October 2016 COLOR", "file": "091-21963-01 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - October 2016 COLOR.pdf" },
+            { "title": "091-21963-02 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - October 2016 COLOR", "file": "091-21963-02 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - October 2016 COLOR.pdf" },
+            { "title": "091-21967-01 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - Feb 2019", "file": "091-21967-01 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - Feb 2019.pdf" },
+            { "title": "091-23900 - HYDRAULIC SCHEMATIC STD DUMPER WO WASHER", "file": "091-23900 - HYDRAULIC SCHEMATIC STD DUMPER WO WASHER.pdf" },
+            { "title": "Hydraulic manifold", "file": "Hydraulic manifold.pdf" },
+            { "title": "HYDRAULIC UNIT  30 AND 40 HP Electrical X Schematic (3)", "file": "HYDRAULIC UNIT  30 AND 40 HP Electrical X Schematic (3).pdf" }
+          ]
+        }
       ]
     },
 
