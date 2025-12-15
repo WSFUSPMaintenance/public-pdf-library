@@ -355,16 +355,215 @@
         }
       ]
     },
-    { "name": "DAF Schematic", "path": "pdf/DAF Schematic", "files": [] },
-    { "name": "EKKO Material Handling", "path": "pdf/EKKO Material Handling", "files": [] },
-    { "name": "Evapco", "path": "pdf/Evapco", "files": [] },
-    { "name": "Gainco", "path": "pdf/Gainco", "files": [] },
-    { "name": "Gardner Denver", "path": "pdf/Gardner Denver", "files": [] },
-    { "name": "Gorman Rupp", "path": "pdf/Gorman Rupp", "files": [] },
-    { "name": "Graco Diaphragm Pump", "path": "pdf/Graco Diaphragm Pump", "files": [] },
-    { "name": "JBT Cat", "path": "pdf/JBT Cat", "files": [] },
-    { "name": "JBT Marel", "path": "pdf/JBT Marel", "files": [] },
-    { "name": "JBT Paw System", "path": "pdf/JBT Paw System", "files": [] },
+    {
+      "name": "DAF Schematic",
+      "path": "pdf/DAF Schematic",
+      "files": [],
+      "categories": [
+        {
+          "name": "Documents",
+          "path": "pdf/DAF Schematic/Documents",
+          "files": [
+            { "title": "WAYNE FARMS1-Layout1", "file": "WAYNE FARMS1-Layout1.pdf" },
+            { "title": "WAYNE FARMS2-Layout1", "file": "WAYNE FARMS2-Layout1.pdf" },
+            { "title": "WAYNE FARMS3-Layout1", "file": "WAYNE FARMS3-Layout1.pdf" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EKKO Material Handling",
+      "path": "pdf/EKKO Material Handling",
+      "files": [],
+      "categories": [
+        {
+          "name": "Documents",
+          "path": "pdf/EKKO Material Handling/Documents",
+          "files": [
+            { "title": "EB12E and EB13E(Li) Service Manual (3)", "file": "EB12E and EB13E(Li) Service Manual (3).pdf" },
+            { "title": "EB12E-98LI Spec's", "file": "EB12E-98LI Spec's.pdf" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Evapco",
+      "path": "pdf/Evapco",
+      "files": [],
+      "categories": [
+        {
+          "name": "Documents",
+          "path": "pdf/Evapco/Documents",
+          "files": [
+            { "title": "12-478586", "file": "12-478586.pdf" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gainco",
+      "path": "pdf/Gainco",
+      "files": [],
+      "categories": [
+        {
+          "name": "Documents",
+          "path": "pdf/Gainco/Documents",
+          "files": [
+            { "title": "186021 Gainco Infiniti English TMC156", "file": "186021 Gainco Infiniti English TMC156.pdf" },
+            { "title": "809619 Gainco Infiniti GII English TMC182", "file": "809619 Gainco Infiniti GII English TMC182.pdf" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gardner Denver",
+      "path": "pdf/Gardner Denver",
+      "files": [],
+      "categories": [
+        {
+          "name": "45 Series Blower",
+          "path": "pdf/Gardner Denver/45 Series Blower",
+          "files": [
+            { "title": "Duroflow_4500SeriesO&MManual", "file": "Duroflow_4500SeriesO&MManual.pdf" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gorman Rupp",
+      "path": "pdf/Gorman Rupp",
+      "files": [],
+      "categories": [
+        {
+          "name": "Offal Pump",
+          "path": "pdf/Gorman Rupp/Offal Pump",
+          "files": [
+            { "title": "OM-05145-01", "file": "OM-05145-01.pdf" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Graco Diaphragm Pump",
+      "path": "pdf/Graco Diaphragm Pump",
+      "files": [],
+      "categories": [
+        {
+          "name": "Scald Tank Air Pump",
+          "path": "pdf/Graco Diaphragm Pump/Scald Tank Air Pump",
+          "files": []
+        }
+      ]
+    },
+    {
+      "name": "JBT Cat",
+      "path": "pdf/JBT Cat",
+      "files": [],
+      "categories": [
+        {
+          "name": "CAT Floor Scales",
+          "path": "pdf/JBT Cat/CAT Floor Scales",
+          "files": [
+            { "title": "LP OH Floor Scale Assembly 5x5 Parts List", "file": "LP OH Floor Scale Assembly 5x5 Parts List.pdf" },
+            { "title": "OH Floor Scale Assembly 5x5 Parts List", "file": "OH Floor Scale Assembly 5x5 Parts List.pdf" },
+            { "title": "XTR_Setup_Calibration (1)", "file": "XTR_Setup_Calibration (1).pdf" },
+            { "title": "XTR_Setup_Calibration", "file": "XTR_Setup_Calibration.pdf" },
+            { "title": "Parts List", "file": "Parts List.jpeg" }
+          ]
+        },
+        {
+          "name": "HPVC Pump",
+          "path": "pdf/JBT Cat/HPVC Pump",
+          "files": [
+            { "title": "HPVC MANUAL 9", "file": "HPVC MANUAL 9.pdf" }
+          ]
+        },
+        {
+          "name": "Final Chiller",
+          "path": "pdf/JBT Cat/Final Chiller",
+          "files": [
+            { "title": "C0-05442 RevA -CHILLER MANUAL-WayneFarms-UnionSprings,AL", "file": "C0-05442 RevA -CHILLER MANUAL-WayneFarms-UnionSprings,AL.pdf" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JBT Marel",
+      "path": "pdf/JBT Marel",
+      "files": [],
+      "categories": [
+        {
+          "name": "Sensor X 23",
+          "path": "pdf/JBT Marel/Sensor X 23",
+          "files": [
+            { "title": "SensorX 302 System-ug-eng", "file": "SensorX 302 System-ug-eng.pdf" },
+            { "title": "SensorX Monthly PM List", "file": "SensorX Monthly PM List.pdf" },
+            { "title": "SensorX Weekly PM List", "file": "SensorX Weekly PM List.pdf" },
+            { "title": "SensorX23-userg-v2-6", "file": "SensorX23-userg-v2-6.pdf" }
+          ]
+        },
+        {
+          "name": "Sensor X 25",
+          "path": "pdf/JBT Marel/Sensor X 25",
+          "files": [
+            { "title": "SensorX502_V2_ENG-9", "file": "SensorX502_V2_ENG-9.pdf" },
+            { "title": "Declaration", "file": "Declaration.pdf" }
+          ]
+        },
+        {
+          "name": "Training",
+          "path": "pdf/JBT Marel/Training",
+          "files": [
+            { "title": "SensorX Startup and Calibration 2017", "file": "SensorX Startup and Calibration 2017.pdf" },
+            { "title": "SensorX Test Block Procedure", "file": "SensorX Test Block Procedure.pdf" },
+            { "title": "SensorX Weekly PM List 2017", "file": "SensorX Weekly PM List 2017.pdf" },
+            { "title": "SX info", "file": "SX info.pdf" },
+            { "title": "SX23 reject timing explained", "file": "SX23 reject timing explained.pptx" },
+            { "title": "X-ray FAQ", "file": "X-ray FAQ.pdf" },
+            { "title": "Bone Reject FAQ", "file": "Bone Reject FAQ.pdf" },
+            { "title": "Correct Program Thresholds", "file": "Correct Program Thresholds.pdf" },
+            { "title": "Infeed Quality Explained", "file": "Infeed Quality Explained.pdf" },
+            { "title": "SensorX Monthly PM List 2017", "file": "SensorX Monthly PM List 2017.pdf" }
+          ]
+        },
+        {
+          "name": "Sensor X 500",
+          "path": "pdf/JBT Marel/Sensor X 500",
+          "files": [
+            { "title": "90840_04_A_ENG", "file": "90840_04_A_ENG.pdf" },
+            { "title": "TD_GR6525_SensorX500", "file": "TD_GR6525_SensorX500.pdf" },
+            { "title": "GR6525-CONTROL UNIT-SX500-4879299_N_1", "file": "GR6525-CONTROL UNIT-SX500-4879299_N_1.pdf" },
+            { "title": "O211672", "file": "O211672.pdf" },
+            { "title": "PTYP06N02", "file": "PTYP06N02.pdf" },
+            { "title": "1771386 - Recommended spares new SX500 wrong quote", "file": "1771386 - Recommended spares new SX500 wrong quote.pdf" },
+            { "title": "Turning ON-OFF Out of Bounds Reject SensorX", "file": "Turning ON-OFF Out of Bounds Reject SensorX.pdf" },
+            { "title": "Breast X Ray 1", "file": "Breast X Ray 1.jpg" },
+            { "title": "Breast X Ray 2", "file": "Breast X Ray 2.jpg" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JBT Paw System",
+      "path": "pdf/JBT Paw System",
+      "files": [],
+      "categories": [
+        {
+          "name": "Paw Control System",
+          "path": "pdf/JBT Paw System/Paw Control System",
+          "files": [
+            { "title": "Efficiency Management System Manual", "file": "Efficiency Management System Manual.lnk" },
+            { "title": "Engineering Approval Package Wayne Sanderson Union Springs AL 203606S", "file": "Engineering Approval Package Wayne Sanderson Union Springs AL 203606S.pdf" },
+            { "title": "JBT 1ST PROCESSING (PICKING LINE),SN4391,WAYNE SANDERSON,UNION SPRINGS,AL", "file": "JBT 1ST PROCESSING (PICKING LINE),SN4391,WAYNE SANDERSON,UNION SPRINGS,AL.pdf" },
+            { "title": "JBT PAW TRACKING,SN4390,WAYNE SANDERSON,UNION SPRINGS,AL", "file": "JBT PAW TRACKING,SN4390,WAYNE SANDERSON,UNION SPRINGS,AL.pdf" },
+            { "title": "Paw Tracking Operations Manual", "file": "Paw Tracking Operations Manual.lnk" },
+            { "title": "1-SN4390", "file": "1-SN4390.pdf" },
+            { "title": "1-SN4391", "file": "1-SN4391.pdf" },
+            { "title": "Counter Operations Manual", "file": "Counter Operations Manual.lnk" }
+          ]
+        }
+      ]
+    },
     { "name": "Kemco", "path": "pdf/Kemco", "files": [] },
     { "name": "Keyence", "path": "pdf/Keyence", "files": [] },
     { "name": "Kice Blower", "path": "pdf/Kice Blower", "files": [] },
