@@ -71,8 +71,14 @@
           "name": "Documents",
           "path": "pdf/Beko Air Dryer",
           "files": [
-            { "title": "CLEARPOINT_W_S040-M030_de_gb_fr_nl_1205", "file": "CLEARPOINT_W_S040-M030_de_gb_fr_nl_1205.pdf" },
-            { "title": "DRYPOINT_RAX_20-500_NA_manual_en_2012", "file": "DRYPOINT_RAX_20-500_NA_manual_en_2012.pdf" }
+            {
+              "title": "CLEARPOINT_W_S040-M030_de_gb_fr_nl_1205",
+              "file": "CLEARPOINT_W_S040-M030_de_gb_fr_nl_1205.pdf"
+            },
+            {
+              "title": "DRYPOINT_RAX_20-500_NA_manual_en_2012",
+              "file": "DRYPOINT_RAX_20-500_NA_manual_en_2012.pdf"
+            }
           ]
         }
       ]
@@ -246,32 +252,24 @@
             { "title": "C121241-X-11", "file": "C121241-X-11.pdf" },
             { "title": "C121241-X-12", "file": "C121241-X-12.pdf" },
             { "title": "C121241-X-13", "file": "C121241-X-13.pdf" },
-
             { "title": "C121241-X-14 part 1", "file": "C121241-X-14 part 1.pdf" },
             { "title": "C121241-X-14 part 2", "file": "C121241-X-14 part 2.pdf" },
-
             { "title": "C121241-X-15 part 1", "file": "C121241-X-15 part 1.pdf" },
             { "title": "C121241-X-15 part 2", "file": "C121241-X-15 part 2.pdf" },
-
             { "title": "C121241-X-16", "file": "C121241-X-16.pdf" },
             { "title": "C121241-X-17", "file": "C121241-X-17.pdf" },
             { "title": "C121241-X-18", "file": "C121241-X-18.pdf" },
-
             { "title": "C121241-C-01", "file": "C121241-C-01.pdf" },
             { "title": "C121241-C-02", "file": "C121241-C-02.pdf" },
-
             { "title": "C121241-C-03 part 1", "file": "C121241-C-03 part 1.pdf" },
             { "title": "C121241-C-03 part 2", "file": "C121241-C-03 part 2.pdf" },
-
             { "title": "C121241-C-04", "file": "C121241-C-04.pdf" },
             { "title": "C121241-C-05", "file": "C121241-C-05.pdf" },
             { "title": "C121241-C-06", "file": "C121241-C-06.pdf" },
             { "title": "C121241-C-08", "file": "C121241-C-08.pdf" },
             { "title": "C121241-C-09", "file": "C121241-C-09.pdf" },
-
             { "title": "C121241-C-10 part 1", "file": "C121241-C-10 part 1.pdf" },
             { "title": "C121241-C-10 part 2", "file": "C121241-C-10 part 2.pdf" },
-
             { "title": "C121241-C-11", "file": "C121241-C-11.pdf" },
             { "title": "C121241-C-12", "file": "C121241-C-12.pdf" },
             { "title": "C121241-C-13", "file": "C121241-C-13.pdf" },
@@ -287,10 +285,8 @@
             { "title": "C121241-C-22", "file": "C121241-C-22.pdf" },
             { "title": "C121241-C-23", "file": "C121241-C-23.pdf" },
             { "title": "C121241-C-24", "file": "C121241-C-24.pdf" },
-
             { "title": "C121241-C-25 part 1", "file": "C121241-C-25 part 1.pdf" },
             { "title": "C121241-C-25 part 2", "file": "C121241-C-25 part 2.pdf" },
-
             { "title": "C121241-C-26", "file": "C121241-C-26.pdf" },
             { "title": "C121241-C-27", "file": "C121241-C-27.pdf" },
             { "title": "C121241-C-28", "file": "C121241-C-28.pdf" },
@@ -324,12 +320,9 @@
             { "title": "C121241-C-59", "file": "C121241-C-59.pdf" },
             { "title": "C121241-C-60", "file": "C121241-C-60.pdf" },
             { "title": "C121241-C-61", "file": "C121241-C-61.pdf" },
-
             { "title": "C121241-DF201", "file": "C121241-DF201.pdf" },
-
             { "title": "C121241-DF201A part 1", "file": "C121241-DF201A part 1.pdf" },
             { "title": "C121241-DF201A part 2", "file": "C121241-DF201A part 2.pdf" },
-
             { "title": "C121241-DF202", "file": "C121241-DF202.pdf" },
             { "title": "C121241-DF205-1", "file": "C121241-DF205-1.pdf" },
             { "title": "C121241-DF205-2", "file": "C121241-DF205-2.pdf" },
@@ -342,26 +335,19 @@
             { "title": "C121241-DF206", "file": "C121241-DF206.pdf" },
             { "title": "C121241-DF208", "file": "C121241-DF208.pdf" },
             { "title": "C121241-DF208A", "file": "C121241-DF208A.pdf" },
-
             { "title": "C121241-DF-X1", "file": "C121241-DF-X1.pdf" },
             { "title": "C121241-DF-X2", "file": "C121241-DF-X2.pdf" },
             { "title": "C121241-DF-X3", "file": "C121241-DF-X3.pdf" },
-
             { "title": "C121241-DF-X4 part 1", "file": "C121241-DF-X4 part 1.pdf" },
             { "title": "C121241-DF-X4 part 2", "file": "C121241-DF-X4 part 2.pdf" },
-
             { "title": "C121241-DF-X5", "file": "C121241-DF-X5.pdf" },
             { "title": "C121241-DF-X6", "file": "C121241-DF-X6.pdf" },
-
             { "title": "C121241-P-01", "file": "C121241-P-01.pdf" },
             { "title": "C121241-P-02", "file": "C121241-P-02.pdf" },
             { "title": "C121241-P-03", "file": "C121241-P-03.pdf" },
-
             { "title": "C121241-P-04 part 1", "file": "C121241-P-04 part 1.pdf" },
             { "title": "C121241-P-04 part 2", "file": "C121241-P-04 part 2.pdf" },
-
             { "title": "C121241-P-05", "file": "C121241-P-05.pdf" },
-
             { "title": "C121241-X-07", "file": "C121241-X-07.pdf" },
             { "title": "C121241-X-08", "file": "C121241-X-08.pdf" },
             { "title": "C121241-X-10", "file": "C121241-X-10.pdf" }
@@ -399,90 +385,12 @@
         }
       ]
     },
-    {
-      "name": "EKKO Material Handling",
-      "path": "pdf/EKKO Material Handling",
-      "files": [],
-      "categories": [
-        {
-          "name": "Documents",
-          "path": "pdf/EKKO Material Handling/Documents",
-          "files": [
-            { "title": "EB12E and EB13E(Li) Service Manual (3)", "file": "EB12E and EB13E(Li) Service Manual (3).pdf" },
-            { "title": "EB12E-98LI Spec's", "file": "EB12E-98LI Spec's.pdf" }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Evapco",
-      "path": "pdf/Evapco",
-      "files": [],
-      "categories": [
-        {
-          "name": "Documents",
-          "path": "pdf/Evapco/Documents",
-          "files": [
-            { "title": "12-478586", "file": "12-478586.pdf" }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Gainco",
-      "path": "pdf/Gainco",
-      "files": [],
-      "categories": [
-        {
-          "name": "Documents",
-          "path": "pdf/Gainco/Documents",
-          "files": [
-            { "title": "186021 Gainco Infiniti English TMC156", "file": "186021 Gainco Infiniti English TMC156.pdf" },
-            { "title": "809619 Gainco Infiniti GII English TMC182", "file": "809619 Gainco Infiniti GII English TMC182.pdf" }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Gardner Denver",
-      "path": "pdf/Gardner Denver",
-      "files": [],
-      "categories": [
-        {
-          "name": "45 Series Blower",
-          "path": "pdf/Gardner Denver/45 Series Blower",
-          "files": [
-            { "title": "Duroflow_4500SeriesO&MManual", "file": "Duroflow_4500SeriesO&MManual.pdf" }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Gorman Rupp",
-      "path": "pdf/Gorman Rupp",
-      "files": [],
-      "categories": [
-        {
-          "name": "Offal Pump",
-          "path": "pdf/Gorman Rupp/Offal Pump",
-          "files": [
-            { "title": "OM-05145-01", "file": "OM-05145-01.pdf" }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Graco Diaphragm Pump",
-      "path": "pdf/Graco Diaphragm Pump",
-      "files": [],
-      "categories": [
-        {
-          "name": "Scald Tank Air Pump",
-          "path": "pdf/Graco Diaphragm Pump/Scald Tank Air Pump",
-          "files": []
-        }
-      ]
-    },
+    { "name": "EKKO Material Handling", "path": "pdf/EKKO Material Handling", "files": [], "categories": [ { "name": "Documents", "path": "pdf/EKKO Material Handling/Documents", "files": [ { "title": "EB12E and EB13E(Li) Service Manual (3)", "file": "EB12E and EB13E(Li) Service Manual (3).pdf" }, { "title": "EB12E-98LI Spec's", "file": "EB12E-98LI Spec's.pdf" } ] } ] },
+    { "name": "Evapco", "path": "pdf/Evapco", "files": [], "categories": [ { "name": "Documents", "path": "pdf/Evapco/Documents", "files": [ { "title": "12-478586", "file": "12-478586.pdf" } ] } ] },
+    { "name": "Gainco", "path": "pdf/Gainco", "files": [], "categories": [ { "name": "Documents", "path": "pdf/Gainco/Documents", "files": [ { "title": "186021 Gainco Infiniti English TMC156", "file": "186021 Gainco Infiniti English TMC156.pdf" }, { "title": "809619 Gainco Infiniti GII English TMC182", "file": "809619 Gainco Infiniti GII English TMC182.pdf" } ] } ] },
+    { "name": "Gardner Denver", "path": "pdf/Gardner Denver", "files": [], "categories": [ { "name": "45 Series Blower", "path": "pdf/Gardner Denver/45 Series Blower", "files": [ { "title": "Duroflow_4500SeriesO&MManual", "file": "Duroflow_4500SeriesO&MManual.pdf" } ] } ] },
+    { "name": "Gorman Rupp", "path": "pdf/Gorman Rupp", "files": [], "categories": [ { "name": "Offal Pump", "path": "pdf/Gorman Rupp/Offal Pump", "files": [ { "title": "OM-05145-01", "file": "OM-05145-01.pdf" } ] } ] },
+    { "name": "Graco Diaphragm Pump", "path": "pdf/Graco Diaphragm Pump", "files": [], "categories": [ { "name": "Scald Tank Air Pump", "path": "pdf/Graco Diaphragm Pump/Scald Tank Air Pump", "files": [] } ] },
     {
       "name": "JBT Cat",
       "path": "pdf/JBT Cat",
@@ -592,13 +500,172 @@
         }
       ]
     },
-    { "name": "Kemco", "path": "pdf/Kemco", "files": [] },
-    { "name": "Keyence", "path": "pdf/Keyence", "files": [] },
-    { "name": "Kice Blower", "path": "pdf/Kice Blower", "files": [] },
-    { "name": "Knife Sharpeners", "path": "pdf/Knife Sharpeners", "files": [] },
-    { "name": "Landen Strapper", "path": "pdf/Landen Strapper", "files": [] },
-    { "name": "Lewis Machine", "path": "pdf/Lewis Machine", "files": [] },
-    { "name": "Lyco Manufacturing", "path": "pdf/Lyco Manufacturing", "files": [] },
+
+    {
+      "name": "Kemco",
+      "path": "pdf/Kemco",
+      "files": [],
+      "categories": [
+        {
+          "name": "Documents",
+          "path": "pdf/Kemco/Documents",
+          "files": [
+            { "title": "42-2761revA HTR B ASSY-Model", "file": "42-2761revA HTR B ASSY-Model.pdf" },
+            { "title": "42-2762revB HTR A WIRING ASBUILT", "file": "42-2762revB HTR A WIRING ASBUILT.pdf" },
+            { "title": "42-2764revB HTR B WIRING ASBUILT", "file": "42-2764revB HTR B WIRING ASBUILT.pdf" },
+            { "title": "OM Manual TE100+", "file": "OM Manual TE100+.pdf" },
+            { "title": "Q1815915 - WAYNE SANDERSON FARMS SPARE PARTS QUOTE", "file": "Q1815915 - WAYNE SANDERSON FARMS SPARE PARTS QUOTE.pdf" },
+            { "title": "21-2489revA EQUIPMENT LAYOUT-Model", "file": "21-2489revA EQUIPMENT LAYOUT-Model.pdf" },
+            { "title": "42-2759revA SCHEMATIC FLOW-Model", "file": "42-2759revA SCHEMATIC FLOW-Model.pdf" },
+            { "title": "42-2760revA HTR A ASSY-Model", "file": "42-2760revA HTR A ASSY-Model.pdf" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Keyence",
+      "path": "pdf/Keyence",
+      "files": []
+    },
+
+    {
+      "name": "Kice Blower",
+      "path": "pdf/Kice Blower",
+      "files": [],
+      "categories": [
+        {
+          "name": "Documents",
+          "path": "pdf/Kice Blower/Documents",
+          "files": [
+            { "title": "04kice", "file": "04kice.pdf" },
+            { "title": "Kice PD Blower Manual", "file": "Kice PD Blower Manual.pdf" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Knife Sharpeners",
+      "path": "pdf/Knife Sharpeners",
+      "files": [],
+      "categories": [
+        {
+          "name": "Hollow Grinder",
+          "path": "pdf/Knife Sharpeners/Hollow Grinder",
+          "files": [
+            { "title": "INDUSTRIAL ORDER FORM-032713", "file": "INDUSTRIAL ORDER FORM-032713.pdf" },
+            { "title": "HD Parts ID Manual 051310", "file": "HD Parts ID Manual 051310.pdf" }
+          ]
+        },
+        {
+          "name": "Tru Hone",
+          "path": "pdf/Knife Sharpeners/Tru Hone",
+          "files": []
+        }
+      ]
+    },
+
+    {
+      "name": "Landen Strapper",
+      "path": "pdf/Landen Strapper",
+      "files": [],
+      "categories": [
+        {
+          "name": "Documents",
+          "path": "pdf/Landen Strapper/Documents",
+          "files": [
+            { "title": "LP9XP 850x400 Manual", "file": "LP9XP 850x400 Manual.pdf" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Lewis Machine",
+      "path": "pdf/Lewis Machine",
+      "files": [],
+      "categories": [
+        {
+          "name": "Back Up Paw Unloader",
+          "path": "pdf/Lewis Machine/Back Up Paw Unloader",
+          "files": [
+            { "title": "LRU05LDC MANUAL", "file": "LRU05LDC MANUAL.pdf" },
+            { "title": "WAYNESANDERSON UNIONSPRINGS SPARE LRU05LDC 13047", "file": "WAYNESANDERSON UNIONSPRINGS SPARE LRU05LDC 13047.pdf" },
+            { "title": "LRU-05LDC -CAD DRAWING", "file": "LRU-05LDC -CAD DRAWING.html" }
+          ]
+        },
+        {
+          "name": "HRLPC Paw Cutter",
+          "path": "pdf/Lewis Machine/HRLPC Paw Cutter",
+          "files": [
+            { "title": "HRLPC- Line Driven Paw Cutter Manual", "file": "HRLPC- Line Driven Paw Cutter Manual.pdf" },
+            { "title": "WAYNESANDERSON UNIONSPRINGS SPARE HRLPC 13046", "file": "WAYNESANDERSON UNIONSPRINGS SPARE HRLPC 13046.pdf" },
+            { "title": "Lewis HRLPC-Line Driven Paw Cutter_Right Hand2017", "file": "Lewis HRLPC-Line Driven Paw Cutter_Right Hand2017.dwg" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Lyco Manufacturing",
+      "path": "pdf/Lyco Manufacturing",
+      "files": [],
+      "categories": [
+        {
+          "name": "Feather Screen",
+          "path": "pdf/Lyco Manufacturing/Feather Screen",
+          "files": [
+            { "title": "Single-Double Drum Screen Manual 2019", "file": "Single-Double Drum Screen Manual 2019.pdf" },
+            { "title": "3133340", "file": "3133340.pdf" },
+            { "title": "3133344", "file": "3133344.pdf" },
+            { "title": "3134415", "file": "3134415.pdf" },
+            { "title": "3134417", "file": "3134417.pdf" },
+            { "title": "3134564", "file": "3134564.pdf" },
+            { "title": "3134900", "file": "3134900.pdf" },
+            { "title": "3134912", "file": "3134912.pdf" },
+            { "title": "3135910", "file": "3135910.pdf" },
+            { "title": "3152875", "file": "3152875.pdf" }
+          ]
+        },
+        {
+          "name": "Meat Screen",
+          "path": "pdf/Lyco Manufacturing/Meat Screen",
+          "files": [
+            { "title": "Single-Double Drum Screen Manual 2019", "file": "Single-Double Drum Screen Manual 2019.pdf" },
+            { "title": "3133340", "file": "3133340.pdf" },
+            { "title": "3133344", "file": "3133344.pdf" },
+            { "title": "3134415", "file": "3134415.pdf" },
+            { "title": "3134417", "file": "3134417.pdf" },
+            { "title": "3134565", "file": "3134565.pdf" },
+            { "title": "3134909", "file": "3134909.pdf" },
+            { "title": "3134913", "file": "3134913.pdf" },
+            { "title": "3135908", "file": "3135908.pdf" },
+            { "title": "3152875", "file": "3152875.pdf" }
+          ]
+        },
+        {
+          "name": "Secondary Screen",
+          "path": "pdf/Lyco Manufacturing/Secondary Screen",
+          "files": [
+            { "title": "3134897", "file": "3134897.pdf" },
+            { "title": "3134917", "file": "3134917.pdf" },
+            { "title": "3135918", "file": "3135918.pdf" },
+            { "title": "3152875", "file": "3152875.pdf" },
+            { "title": "FA, 60x126 SDS .020 OP (3135912)", "file": "FA, 60x126 SDS .020 OP (3135912).pdf" },
+            { "title": "Wayne Farms 2056", "file": "Wayne Farms 2056.pdf" },
+            { "title": "60 x 126  Single Drum Screen Manual", "file": "60 x 126  Single Drum Screen Manual.pdf" },
+            { "title": "3133340", "file": "3133340.pdf" },
+            { "title": "3133346", "file": "3133346.pdf" },
+            { "title": "3133347", "file": "3133347.pdf" },
+            { "title": "3134415", "file": "3134415.pdf" },
+            { "title": "3134417", "file": "3134417.pdf" },
+            { "title": "3134569", "file": "3134569.pdf" }
+          ]
+        }
+      ]
+    },
+
     { "name": "MARS Paw System", "path": "pdf/MARS Paw System", "files": [] },
     { "name": "Mettler Toledo", "path": "pdf/Mettler Toledo", "files": [] },
     { "name": "Meyn", "path": "pdf/Meyn", "files": [] },
@@ -606,6 +673,7 @@
     { "name": "Morris", "path": "pdf/Morris", "files": [] },
     { "name": "Munters", "path": "pdf/Munters", "files": [] },
     { "name": "Offal Augers", "path": "pdf/Offal Augers", "files": [] },
+
     {
       "name": "Phoenix Innovations",
       "path": "pdf/Phoenix Innovations",
@@ -628,6 +696,7 @@
         }
       ]
     },
+
     { "name": "Poly Clip Systems", "path": "pdf/Poly Clip Systems", "files": [] },
     { "name": "Prime", "path": "pdf/Prime", "files": [] },
     { "name": "Raymond Lifts", "path": "pdf/Raymond Lifts", "files": [] },
