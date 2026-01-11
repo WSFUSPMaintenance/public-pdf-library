@@ -8,23 +8,17 @@
         {
           "name": "UNIT 1",
           "path": "pdf/Applied Air (Evis Heater Units)/UNIT 1",
-          "files": [
-            { "title": "54542 WD", "file": "54542 WD.pdf" }
-          ]
+          "files": [{ "title": "54542 WD", "file": "54542 WD.pdf" }]
         },
         {
           "name": "UNIT 2",
           "path": "pdf/Applied Air (Evis Heater Units)/UNIT 2",
-          "files": [
-            { "title": "54543", "file": "54543.pdf" }
-          ]
+          "files": [{ "title": "54543", "file": "54543.pdf" }]
         },
         {
           "name": "UNIT 3",
           "path": "pdf/Applied Air (Evis Heater Units)/UNIT 3",
-          "files": [
-            { "title": "41555", "file": "41555.pdf" }
-          ]
+          "files": [{ "title": "41555", "file": "41555.pdf" }]
         }
       ]
     },
@@ -49,16 +43,12 @@
         {
           "name": "Breast Skinner Training Video",
           "path": "pdf/Baader Linco/Breast Skinner Training Video",
-          "files": [
-            { "title": "Skinner 625 Maintenance", "file": "Skinner 625 Maintenance.mp4" }
-          ]
+          "files": [{ "title": "Skinner 625 Maintenance", "file": "Skinner 625 Maintenance.mp4" }]
         },
         {
           "name": "OIL SAC CUTTER",
           "path": "pdf/Baader Linco/OIL SAC CUTTER",
-          "files": [
-            { "title": "BA1279.1 180 rev C", "file": "BA1279.1 180 rev C.pdf" }
-          ]
+          "files": [{ "title": "BA1279.1 180 rev C", "file": "BA1279.1 180 rev C.pdf" }]
         }
       ]
     },
@@ -71,14 +61,8 @@
           "name": "Documents",
           "path": "pdf/Beko Air Dryer",
           "files": [
-            {
-              "title": "CLEARPOINT_W_S040-M030_de_gb_fr_nl_1205",
-              "file": "CLEARPOINT_W_S040-M030_de_gb_fr_nl_1205.pdf"
-            },
-            {
-              "title": "DRYPOINT_RAX_20-500_NA_manual_en_2012",
-              "file": "DRYPOINT_RAX_20-500_NA_manual_en_2012.pdf"
-            }
+            { "title": "CLEARPOINT_W_S040-M030_de_gb_fr_nl_1205", "file": "CLEARPOINT_W_S040-M030_de_gb_fr_nl_1205.pdf" },
+            { "title": "DRYPOINT_RAX_20-500_NA_manual_en_2012", "file": "DRYPOINT_RAX_20-500_NA_manual_en_2012.pdf" }
           ]
         }
       ]
@@ -91,9 +75,7 @@
         {
           "name": "Documents",
           "path": "pdf/Berry Equipment",
-          "files": [
-            { "title": "BK 232 - Head Puller-G2 Rev A", "file": "BK 232 - Head Puller-G2 Rev A.pdf" }
-          ]
+          "files": [{ "title": "BK 232 - Head Puller-G2 Rev A", "file": "BK 232 - Head Puller-G2 Rev A.pdf" }]
         }
       ]
     },
@@ -156,19 +138,10 @@
               "title": "091-21963-02 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - October 2016 COLOR",
               "file": "091-21963-02 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - October 2016 COLOR.pdf"
             },
-            {
-              "title": "091-21967-01 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - Feb 2019",
-              "file": "091-21967-01 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - Feb 2019.pdf"
-            },
-            {
-              "title": "091-23900 - HYDRAULIC SCHEMATIC STD DUMPER WO WASHER",
-              "file": "091-23900 - HYDRAULIC SCHEMATIC STD DUMPER WO WASHER.pdf"
-            },
+            { "title": "091-21967-01 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - Feb 2019", "file": "091-21967-01 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - Feb 2019.pdf" },
+            { "title": "091-23900 - HYDRAULIC SCHEMATIC STD DUMPER WO WASHER", "file": "091-23900 - HYDRAULIC SCHEMATIC STD DUMPER WO WASHER.pdf" },
             { "title": "Hydraulic manifold", "file": "Hydraulic manifold.pdf" },
-            {
-              "title": "HYDRAULIC UNIT  30 AND 40 HP Electrical X Schematic (3)",
-              "file": "HYDRAULIC UNIT  30 AND 40 HP Electrical X Schematic (3).pdf"
-            }
+            { "title": "HYDRAULIC UNIT  30 AND 40 HP Electrical X Schematic (3)", "file": "HYDRAULIC UNIT  30 AND 40 HP Electrical X Schematic (3).pdf" }
           ]
         }
       ]
@@ -191,9 +164,7 @@
         {
           "name": "Wing Saw",
           "path": "pdf/Cantrell/Wing Saw",
-          "files": [
-            { "title": "CANTRELL KFC CUT-UP SAW MODEL CS-100 VOL 1 ISSUE 2", "file": "CANTRELL KFC CUT-UP SAW MODEL CS-100 VOL 1 ISSUE 2.pdf" }
-          ]
+          "files": [{ "title": "CANTRELL KFC CUT-UP SAW MODEL CS-100 VOL 1 ISSUE 2", "file": "CANTRELL KFC CUT-UP SAW MODEL CS-100 VOL 1 ISSUE 2.pdf" }]
         }
       ]
     },
@@ -356,16 +327,12 @@
         {
           "name": "Conveyor Master List",
           "path": "pdf/D&F Equipment/Conveyor Master List",
-          "files": [
-            { "title": "wfusal-parts_chillers-251202(Belt & Drive Data Matrix)", "file": "wfusal-parts_chillers-251202(Belt & Drive Data Matrix).csv" }
-          ]
+          "files": [{ "title": "wfusal-parts_chillers-251202(Belt & Drive Data Matrix)", "file": "wfusal-parts_chillers-251202(Belt & Drive Data Matrix).csv" }]
         },
         {
           "name": "Catenary Sag Conveyor List",
           "path": "pdf/D&F Equipment/Catenary Sag Conveyor List",
-          "files": [
-            { "title": "WSF C121241 Catenary Conveyor List", "file": "WSF C121241 Catenary Conveyor List.pdf" }
-          ]
+          "files": [{ "title": "WSF C121241 Catenary Conveyor List", "file": "WSF C121241 Catenary Conveyor List.pdf" }]
         }
       ]
     },
@@ -408,9 +375,7 @@
         {
           "name": "Documents",
           "path": "pdf/Evapco/Documents",
-          "files": [
-            { "title": "12-478586", "file": "12-478586.pdf" }
-          ]
+          "files": [{ "title": "12-478586", "file": "12-478586.pdf" }]
         }
       ]
     },
@@ -437,9 +402,7 @@
         {
           "name": "45 Series Blower",
           "path": "pdf/Gardner Denver/45 Series Blower",
-          "files": [
-            { "title": "Duroflow_4500SeriesO&MManual", "file": "Duroflow_4500SeriesO&MManual.pdf" }
-          ]
+          "files": [{ "title": "Duroflow_4500SeriesO&MManual", "file": "Duroflow_4500SeriesO&MManual.pdf" }]
         }
       ]
     },
@@ -451,9 +414,7 @@
         {
           "name": "Offal Pump",
           "path": "pdf/Gorman Rupp/Offal Pump",
-          "files": [
-            { "title": "OM-05145-01", "file": "OM-05145-01.pdf" }
-          ]
+          "files": [{ "title": "OM-05145-01", "file": "OM-05145-01.pdf" }]
         }
       ]
     },
@@ -488,16 +449,12 @@
         {
           "name": "HPVC Pump",
           "path": "pdf/JBT Cat/HPVC Pump",
-          "files": [
-            { "title": "HPVC MANUAL 9", "file": "HPVC MANUAL 9.pdf" }
-          ]
+          "files": [{ "title": "HPVC MANUAL 9", "file": "HPVC MANUAL 9.pdf" }]
         },
         {
           "name": "Final Chiller",
           "path": "pdf/JBT Cat/Final Chiller",
-          "files": [
-            { "title": "C0-05442 RevA -CHILLER MANUAL-WayneFarms-UnionSprings,AL", "file": "C0-05442 RevA -CHILLER MANUAL-WayneFarms-UnionSprings,AL.pdf" }
-          ]
+          "files": [{ "title": "C0-05442 RevA -CHILLER MANUAL-WayneFarms-UnionSprings,AL", "file": "C0-05442 RevA -CHILLER MANUAL-WayneFarms-UnionSprings,AL.pdf" }]
         }
       ]
     },
@@ -599,11 +556,7 @@
         }
       ]
     },
-    {
-      "name": "Keyence",
-      "path": "pdf/Keyence",
-      "files": []
-    },
+    { "name": "Keyence", "path": "pdf/Keyence", "files": [] },
     {
       "name": "Kice Blower",
       "path": "pdf/Kice Blower",
@@ -632,11 +585,7 @@
             { "title": "HD Parts ID Manual 051310", "file": "HD Parts ID Manual 051310.pdf" }
           ]
         },
-        {
-          "name": "Tru Hone",
-          "path": "pdf/Knife Sharpeners/Tru Hone",
-          "files": []
-        }
+        { "name": "Tru Hone", "path": "pdf/Knife Sharpeners/Tru Hone", "files": [] }
       ]
     },
     {
@@ -647,9 +596,7 @@
         {
           "name": "Documents",
           "path": "pdf/Landen Strapper/Documents",
-          "files": [
-            { "title": "LP9XP 850x400 Manual", "file": "LP9XP 850x400 Manual.pdf" }
-          ]
+          "files": [{ "title": "LP9XP 850x400 Manual", "file": "LP9XP 850x400 Manual.pdf" }]
         }
       ]
     },
@@ -737,7 +684,6 @@
       ]
     },
     { "name": "MARS Paw System", "path": "pdf/MARS Paw System", "files": [] },
-
     {
       "name": "Mettler Toledo",
       "path": "pdf/Mettler Toledo",
@@ -746,9 +692,7 @@
         {
           "name": "Customer Information",
           "path": "pdf/Mettler Toledo/Customer Information",
-          "files": [
-            { "title": "Valued Customer Letter", "file": "Valued Customer Letter.pdf" }
-          ]
+          "files": [{ "title": "Valued Customer Letter", "file": "Valued Customer Letter.pdf" }]
         },
         {
           "name": "Engineering Documentation",
@@ -790,13 +734,92 @@
         }
       ]
     },
-
-    { "name": "Meyn", "path": "pdf/Meyn", "files": [] },
-    { "name": "Mighty Lube", "path": "pdf/Mighty Lube", "files": [] },
-    { "name": "Morris", "path": "pdf/Morris", "files": [] },
-    { "name": "Munters", "path": "pdf/Munters", "files": [] },
-    { "name": "Offal Augers", "path": "pdf/Offal Augers", "files": [] },
-
+    {
+      "name": "Meyn",
+      "path": "pdf/Meyn",
+      "files": [],
+      "categories": [
+        {
+          "name": "Picker 1",
+          "path": "pdf/Meyn/Picker 1",
+          "files": [
+            { "title": "2015050072-1", "file": "2015050072-1.pdf" },
+            { "title": "MEYN HM01", "file": "MEYN HM01.pdf" }
+          ]
+        },
+        {
+          "name": "Picker 4",
+          "path": "pdf/Meyn/Picker 4",
+          "files": [
+            { "title": "2013030172-1_Plucker JMD2", "file": "2013030172-1_Plucker JMD2.pdf" },
+            { "title": "JMD2 USER MANUAL", "file": "JMD2 USER MANUAL.pdf" }
+          ]
+        },
+        {
+          "name": "Quill Puller",
+          "path": "pdf/Meyn/Quill Puller",
+          "files": [{ "title": "TAIL FEATHER PULLER", "file": "TAIL FEATHER PULLER.pdf" }]
+        }
+      ]
+    },
+    {
+      "name": "Mighty Lube",
+      "path": "pdf/Mighty Lube",
+      "files": [],
+      "categories": [
+        {
+          "name": "Documents",
+          "path": "pdf/Mighty Lube/Documents",
+          "files": [
+            { "title": "9403-4-6MLSS_v2.24-2.25_Manual", "file": "9403-4-6MLSS_v2.24-2.25_Manual.pdf" },
+            { "title": "D-Series_PowerSupplyG12_V1.242.25_Manual-1", "file": "D-Series_PowerSupplyG12_V1.242.25_Manual-1.pdf" },
+            { "title": "Spare Parts Quote with Drawings", "file": "Spare Parts Quote with Drawings.pdf" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Morris",
+      "path": "pdf/Morris",
+      "files": [],
+      "categories": [
+        {
+          "name": "Pre_Chiller",
+          "path": "pdf/Morris/Pre_Chiller",
+          "files": [{ "title": "PRE CHILLER HMR-1072S-8 (ID 255967)", "file": "PRE CHILLER HMR-1072S-8 (ID 255967).pdf" }]
+        }
+      ]
+    },
+    {
+      "name": "Munters",
+      "path": "pdf/Munters",
+      "files": [],
+      "categories": [
+        {
+          "name": "Documents",
+          "path": "pdf/Munters/Documents",
+          "files": [
+            { "title": "22367602 Wayne Farms - Manual (2)", "file": "22367602 Wayne Farms - Manual (2).pdf" },
+            { "title": "22367602 Wayne Farms - Manual", "file": "22367602 Wayne Farms - Manual.pdf" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Offal Augers",
+      "path": "pdf/Offal Augers",
+      "files": [],
+      "categories": [
+        {
+          "name": "Feather Leveling Auger",
+          "path": "pdf/Offal Augers/Feather Leveling Auger",
+          "files": [
+            { "title": "12 x 36 0932420M REV_A (2)", "file": "12 x 36 0932420M REV_A (2).pdf" },
+            { "title": "16 x 37.6 0790962M REV_A (3)", "file": "16 x 37.6 0790962M REV_A (3).pdf" }
+          ]
+        }
+      ]
+    },
     {
       "name": "Phoenix Innovations",
       "path": "pdf/Phoenix Innovations",
@@ -812,26 +835,168 @@
             { "title": "Wing Chiller", "file": "WingChiller.pdf" }
           ]
         },
+        { "name": "Heat Exchangers (HEX)", "path": "pdf/Phoenix Innovations/Heat Exchangers (HEX)", "files": [] }
+      ]
+    },
+    {
+      "name": "Poly Clip Systems",
+      "path": "pdf/Poly Clip Systems",
+      "files": [],
+      "categories": [
         {
-          "name": "Heat Exchangers (HEX)",
-          "path": "pdf/Phoenix Innovations/Heat Exchangers (HEX)",
-          "files": []
+          "name": "Documents",
+          "path": "pdf/Poly Clip Systems/Documents",
+          "files": [
+            { "title": "78536", "file": "78536.pdf" },
+            { "title": "EZ-P-600 Spare Parts", "file": "EZ-P-600 Spare Parts.pdf" }
+          ]
         }
       ]
     },
-
-    { "name": "Poly Clip Systems", "path": "pdf/Poly Clip Systems", "files": [] },
     { "name": "Prime", "path": "pdf/Prime", "files": [] },
-    { "name": "Raymond Lifts", "path": "pdf/Raymond Lifts", "files": [] },
+    {
+      "name": "Raymond Lifts",
+      "path": "pdf/Raymond Lifts",
+      "files": [],
+      "categories": [
+        {
+          "name": "8210 Pallet Jack",
+          "path": "pdf/Raymond Lifts/8210 Pallet Jack",
+          "files": [
+            { "title": "1146945_001D_8210-8250_MM", "file": "1146945_001D_8210-8250_MM.pdf" },
+            { "title": "4C190004200", "file": "4C190004200.pdf" },
+            { "title": "8210_00100-Up_PM_1146954 (1) 2020", "file": "8210_00100-Up_PM_1146954 (1) 2020.pdf" }
+          ]
+        }
+      ]
+    },
     { "name": "Refrigeration Manuals", "path": "pdf/Refrigeration Manuals", "files": [] },
-    { "name": "Roser Chain Glove Washer", "path": "pdf/Roser Chain Glove Washer", "files": [] },
-    { "name": "Scald Tank Turn Wheels", "path": "pdf/Scald Tank Turn Wheels", "files": [] },
+    {
+      "name": "Roser Chain Glove Washer",
+      "path": "pdf/Roser Chain Glove Washer",
+      "files": [],
+      "categories": [
+        {
+          "name": "Documents",
+          "path": "pdf/Roser Chain Glove Washer/Documents",
+          "files": [{ "title": "Roser Manual Code#13319 Glove Washer, 0314", "file": "Roser Manual Code#13319 Glove Washer, 0314.pdf" }]
+        }
+      ]
+    },
+    {
+      "name": "Scald Tank Control System",
+      "path": "pdf/Scald Tank Control System",
+      "files": [],
+      "categories": [
+        {
+          "name": "Documents",
+          "path": "pdf/Scald Tank Control System",
+          "files": [
+            { "title": "JBT SCALDER SYSTEM,SN4448,WAYNE SANDERSON,UNION SPRINGS,AL", "file": "JBT SCALDER SYSTEM,SN4448,WAYNE SANDERSON,UNION SPRINGS,AL.pdf" },
+            { "title": "JBT Scalder Operatations Manual", "file": "JBT Scalder Operatations Manual.lnk" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scald Tank Turn Wheels",
+      "path": "pdf/Scald Tank Turn Wheels",
+      "files": [],
+      "categories": [
+        {
+          "name": "DC Equipment - 12 Inch",
+          "path": "pdf/Scald Tank Turn Wheels/DC Equipment/12 Inch",
+          "files": [
+            { "title": "Capture", "file": "Capture.PNG" },
+            { "title": "Est_5713_from_DC_Equipment_Inc._58104", "file": "Est_5713_from_DC_Equipment_Inc._58104.pdf" }
+          ]
+        },
+        {
+          "name": "DC Equipment - 19 Inch",
+          "path": "pdf/Scald Tank Turn Wheels/DC Equipment/19 Inch",
+          "files": [
+            { "title": "Capture", "file": "Capture.PNG" },
+            { "title": "Est_5713_from_DC_Equipment_Inc._58104", "file": "Est_5713_from_DC_Equipment_Inc._58104.pdf" }
+          ]
+        }
+      ]
+    },
     { "name": "Schematics and Drawings (various)", "path": "pdf/Schematics and Drawings (various)", "files": [] },
-    { "name": "SES (Chlorine)", "path": "pdf/SES (Chlorine)", "files": [] },
-    { "name": "Simmons Engineering", "path": "pdf/Simmons Engineering", "files": [] },
-    { "name": "SullAir", "path": "pdf/SullAir", "files": [] },
-    { "name": "TKO Doors", "path": "pdf/TKO Doors", "files": [] },
-    { "name": "Trane HVAC", "path": "pdf/Trane HVAC", "files": [] },
+    {
+      "name": "SES (Chlorine)",
+      "path": "pdf/SES (Chlorine)",
+      "files": [],
+      "categories": [
+        {
+          "name": "Documents",
+          "path": "pdf/SES (Chlorine)/Documents",
+          "files": [
+            { "title": "CM 10-3 A-S-I-V-AQQV E-A-A-N 97568514 Grundfos Document", "file": "CM 10-3 A-S-I-V-AQQV E-A-A-N 97568514 Grundfos Document.pdf" },
+            { "title": "Est_115032125_from_Southeastern_Systems_9044", "file": "Est_115032125_from_Southeastern_Systems_9044.pdf" },
+            { "title": "SOP  Amber water Citric Acid", "file": "SOP  Amber water Citric Acid.doc" },
+            { "title": "Wayne Union Spring Jig Sink System 10 1  2020 Model (1)", "file": "Wayne Union Spring Jig Sink System 10 1  2020 Model (1).pdf" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Simmons Engineering",
+      "path": "pdf/Simmons Engineering",
+      "files": [],
+      "categories": [
+        {
+          "name": "Stunner",
+          "path": "pdf/Simmons Engineering/Stunner",
+          "files": [
+            { "title": "12' SF-7016 Parts Manual-2", "file": "12' SF-7016 Parts Manual-2.pdf" },
+            { "title": "Quote-196140", "file": "Quote-196140.pdf" },
+            { "title": "SF-7016 Stunner Installation, Operation and Maintenance Manual", "file": "SF-7016 Stunner Installation, Operation and Maintenance Manual.pdf" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SullAir",
+      "path": "pdf/SullAir",
+      "files": [],
+      "categories": [
+        {
+          "name": "Documents",
+          "path": "pdf/SullAir/Documents",
+          "files": [
+            { "title": "02250219-894(r01) 4500B-7500B USER", "file": "02250219-894(r01) 4500B-7500B USER.pdf" },
+            { "title": "02250219-895(r01) 4500B-7500B PARTS", "file": "02250219-895(r01) 4500B-7500B PARTS.pdf" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TKO Doors",
+      "path": "pdf/TKO Doors",
+      "files": [],
+      "categories": [
+        {
+          "name": "Documents",
+          "path": "pdf/TKO Doors/Documents",
+          "files": [{ "title": "TKO CW Manual", "file": "TKO CW Manual.pdf" }]
+        }
+      ]
+    },
+    {
+      "name": "Trane HVAC",
+      "path": "pdf/Trane HVAC",
+      "files": [],
+      "categories": [
+        {
+          "name": "Hanging Pen HVAC",
+          "path": "pdf/Trane HVAC/Hanging Pen HVAC",
+          "files": [
+            { "title": "CLARKSVILLE_S", "file": "CLARKSVILLE_S.pdf" },
+            { "title": "RT-SVX34U-EN", "file": "RT-SVX34U-EN.pdf" }
+          ]
+        }
+      ]
+    },
     { "name": "Transformers and Switch Gear", "path": "pdf/Transformers and Switch Gear", "files": [] },
     { "name": "Waste Water", "path": "pdf/Waste Water", "files": [] },
     { "name": "Water Management Resources", "path": "pdf/Water Management Resources", "files": [] },
