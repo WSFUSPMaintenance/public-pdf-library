@@ -385,12 +385,90 @@
         }
       ]
     },
-    { "name": "EKKO Material Handling", "path": "pdf/EKKO Material Handling", "files": [], "categories": [ { "name": "Documents", "path": "pdf/EKKO Material Handling/Documents", "files": [ { "title": "EB12E and EB13E(Li) Service Manual (3)", "file": "EB12E and EB13E(Li) Service Manual (3).pdf" }, { "title": "EB12E-98LI Spec's", "file": "EB12E-98LI Spec's.pdf" } ] } ] },
-    { "name": "Evapco", "path": "pdf/Evapco", "files": [], "categories": [ { "name": "Documents", "path": "pdf/Evapco/Documents", "files": [ { "title": "12-478586", "file": "12-478586.pdf" } ] } ] },
-    { "name": "Gainco", "path": "pdf/Gainco", "files": [], "categories": [ { "name": "Documents", "path": "pdf/Gainco/Documents", "files": [ { "title": "186021 Gainco Infiniti English TMC156", "file": "186021 Gainco Infiniti English TMC156.pdf" }, { "title": "809619 Gainco Infiniti GII English TMC182", "file": "809619 Gainco Infiniti GII English TMC182.pdf" } ] } ] },
-    { "name": "Gardner Denver", "path": "pdf/Gardner Denver", "files": [], "categories": [ { "name": "45 Series Blower", "path": "pdf/Gardner Denver/45 Series Blower", "files": [ { "title": "Duroflow_4500SeriesO&MManual", "file": "Duroflow_4500SeriesO&MManual.pdf" } ] } ] },
-    { "name": "Gorman Rupp", "path": "pdf/Gorman Rupp", "files": [], "categories": [ { "name": "Offal Pump", "path": "pdf/Gorman Rupp/Offal Pump", "files": [ { "title": "OM-05145-01", "file": "OM-05145-01.pdf" } ] } ] },
-    { "name": "Graco Diaphragm Pump", "path": "pdf/Graco Diaphragm Pump", "files": [], "categories": [ { "name": "Scald Tank Air Pump", "path": "pdf/Graco Diaphragm Pump/Scald Tank Air Pump", "files": [] } ] },
+    {
+      "name": "EKKO Material Handling",
+      "path": "pdf/EKKO Material Handling",
+      "files": [],
+      "categories": [
+        {
+          "name": "Documents",
+          "path": "pdf/EKKO Material Handling/Documents",
+          "files": [
+            { "title": "EB12E and EB13E(Li) Service Manual (3)", "file": "EB12E and EB13E(Li) Service Manual (3).pdf" },
+            { "title": "EB12E-98LI Spec's", "file": "EB12E-98LI Spec's.pdf" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Evapco",
+      "path": "pdf/Evapco",
+      "files": [],
+      "categories": [
+        {
+          "name": "Documents",
+          "path": "pdf/Evapco/Documents",
+          "files": [
+            { "title": "12-478586", "file": "12-478586.pdf" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gainco",
+      "path": "pdf/Gainco",
+      "files": [],
+      "categories": [
+        {
+          "name": "Documents",
+          "path": "pdf/Gainco/Documents",
+          "files": [
+            { "title": "186021 Gainco Infiniti English TMC156", "file": "186021 Gainco Infiniti English TMC156.pdf" },
+            { "title": "809619 Gainco Infiniti GII English TMC182", "file": "809619 Gainco Infiniti GII English TMC182.pdf" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gardner Denver",
+      "path": "pdf/Gardner Denver",
+      "files": [],
+      "categories": [
+        {
+          "name": "45 Series Blower",
+          "path": "pdf/Gardner Denver/45 Series Blower",
+          "files": [
+            { "title": "Duroflow_4500SeriesO&MManual", "file": "Duroflow_4500SeriesO&MManual.pdf" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gorman Rupp",
+      "path": "pdf/Gorman Rupp",
+      "files": [],
+      "categories": [
+        {
+          "name": "Offal Pump",
+          "path": "pdf/Gorman Rupp/Offal Pump",
+          "files": [
+            { "title": "OM-05145-01", "file": "OM-05145-01.pdf" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Graco Diaphragm Pump",
+      "path": "pdf/Graco Diaphragm Pump",
+      "files": [],
+      "categories": [
+        {
+          "name": "Scald Tank Air Pump",
+          "path": "pdf/Graco Diaphragm Pump/Scald Tank Air Pump",
+          "files": []
+        }
+      ]
+    },
     {
       "name": "JBT Cat",
       "path": "pdf/JBT Cat",
@@ -500,7 +578,6 @@
         }
       ]
     },
-
     {
       "name": "Kemco",
       "path": "pdf/Kemco",
@@ -522,13 +599,11 @@
         }
       ]
     },
-
     {
       "name": "Keyence",
       "path": "pdf/Keyence",
       "files": []
     },
-
     {
       "name": "Kice Blower",
       "path": "pdf/Kice Blower",
@@ -544,7 +619,6 @@
         }
       ]
     },
-
     {
       "name": "Knife Sharpeners",
       "path": "pdf/Knife Sharpeners",
@@ -565,7 +639,6 @@
         }
       ]
     },
-
     {
       "name": "Landen Strapper",
       "path": "pdf/Landen Strapper",
@@ -580,7 +653,6 @@
         }
       ]
     },
-
     {
       "name": "Lewis Machine",
       "path": "pdf/Lewis Machine",
@@ -606,7 +678,6 @@
         }
       ]
     },
-
     {
       "name": "Lyco Manufacturing",
       "path": "pdf/Lyco Manufacturing",
@@ -665,9 +736,61 @@
         }
       ]
     },
-
     { "name": "MARS Paw System", "path": "pdf/MARS Paw System", "files": [] },
-    { "name": "Mettler Toledo", "path": "pdf/Mettler Toledo", "files": [] },
+
+    {
+      "name": "Mettler Toledo",
+      "path": "pdf/Mettler Toledo",
+      "files": [],
+      "categories": [
+        {
+          "name": "Customer Information",
+          "path": "pdf/Mettler Toledo/Customer Information",
+          "files": [
+            { "title": "Valued Customer Letter", "file": "Valued Customer Letter.pdf" }
+          ]
+        },
+        {
+          "name": "Engineering Documentation",
+          "path": "pdf/Mettler Toledo/Engineering Documentation",
+          "files": [
+            { "title": "D000899404_3D", "file": "D000899404_3D.pdf" },
+            { "title": "D000899404_dwg", "file": "D000899404_dwg.pdf" },
+            { "title": "EPL010605", "file": "EPL010605.pdf" }
+          ]
+        },
+        {
+          "name": "Manuals",
+          "path": "pdf/Mettler Toledo/Manuals",
+          "files": [
+            { "title": "M30 R-Series Installation Manual 30573927 EN-US_E", "file": "M30 R-Series Installation Manual 30573927 EN-US_E .pdf" },
+            { "title": "M30 R-Series_OM_en-US_C_30710293", "file": "M30 R-Series_OM_en-US_C_30710293 .pdf" },
+            { "title": "SL1500_SL2000 Metal Detection System User Manual_EnUS_28280503", "file": "SL1500_SL2000 Metal Detection System User Manual_EnUS_28280503 .pdf" }
+          ]
+        },
+        {
+          "name": "Safety Documentation",
+          "path": "pdf/Mettler Toledo/Safety Documentation",
+          "files": [
+            { "title": "C342957723  EU Declaration Of Conformity", "file": "C342957723  EU Declaration Of Conformity.pdf" },
+            { "title": "C342957723 Factory Acceptance Test Certrifcate", "file": "C342957723 Factory Acceptance Test Certrifcate.pdf" }
+          ]
+        },
+        {
+          "name": "Service Pack",
+          "path": "pdf/Mettler Toledo/Service Pack",
+          "files": [
+            { "title": "Mettler Toledo Terms & Conditions", "file": "Mettler Toledo Terms & Conditions.pdf" },
+            { "title": "PI Services Brochure", "file": "PI Services Brochure.pdf" },
+            { "title": "PIUS_Americas_Service_Communication_Channels (2)", "file": "PIUS_Americas_Service_Communication_Channels (2).pdf" },
+            { "title": "SPK 145785007-10 Wayne Farms LLC", "file": "SPK 145785007-10 Wayne Farms LLC.pdf" },
+            { "title": "SPK Brochure", "file": "SPK Brochure .pdf" },
+            { "title": "Spare Parts Quote Letter -JN145785007-10", "file": "Spare Parts Quote Letter -JN145785007-10.pdf" }
+          ]
+        }
+      ]
+    },
+
     { "name": "Meyn", "path": "pdf/Meyn", "files": [] },
     { "name": "Mighty Lube", "path": "pdf/Mighty Lube", "files": [] },
     { "name": "Morris", "path": "pdf/Morris", "files": [] },
