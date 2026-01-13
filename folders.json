@@ -333,7 +333,23 @@
           "name": "Catenary Sag Conveyor List",
           "path": "pdf/D&F Equipment/Catenary Sag Conveyor List",
           "files": [{ "title": "WSF C121241 Catenary Conveyor List", "file": "WSF C121241 Catenary Conveyor List.pdf" }]
-        }
+        },
+{
+  "name": "X Conveyors StackOff",
+  "path": "pdf/D&F Equipment/X Conveyors StackOff",
+  "files": [
+    { "title": "X-90", "file": "X-90.jpg" },
+    { "title": "X-91", "file": "X-91.jpg" },
+    { "title": "X-92", "file": "X-92.jpg" },
+    { "title": "X-93", "file": "X-93.jpg" },
+    { "title": "X-94", "file": "X-94.jpg" },
+    { "title": "X-95", "file": "X-95.jpg" },
+    { "title": "X-96", "file": "X-96.jpg" },
+    { "title": "X-97", "file": "X-97.jpg" },
+    { "title": "X-98", "file": "X-98.jpg" },
+    { "title": "X-99", "file": "X-99.jpg" }
+  ]
+}
       ]
     },
     {
