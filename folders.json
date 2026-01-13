@@ -327,7 +327,9 @@
         {
           "name": "Conveyor Master List",
           "path": "pdf/D&F Equipment/Conveyor Master List",
-          "files": [{ "title": "wfusal-parts_chillers-251202(Belt & Drive Data Matrix)", "file": "wfusal-parts_chillers-251202(Belt & Drive Data Matrix).csv" }]
+          "files": [{ "title": "wfusal-parts_chillers-251202(Belt & Drive Data Matrix)", "file": "wfusal-parts_chillers-251202(Belt & Drive Data Matrix).csv" },
+           { "title": "wfusal-parts_chillers-260102", "file": "wfusal-parts_chillers-260102.xlsx" }
+          ]
         },
         {
           "name": "Catenary Sag Conveyor List",
