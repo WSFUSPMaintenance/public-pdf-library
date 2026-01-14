@@ -1004,11 +1004,12 @@
   "categories": [
     {
       "name": "Documents",
-      "path": "pdf/Supervisor Documents",
+      "path": "pdf/Supervisor Documents/Documents",
       "files": [
         {
           "title": "Increasing Final Chiller Proximity Switch Signal Fault Time",
-          "file": "Increasing Final Chiller Proximity Switch Signal Fault Time.pdf"}
+          "file": "Increasing Final Chiller Proximity Switch Signal Fault Time.pdf"
+        }
       ]
     }
   ]
