@@ -998,6 +998,17 @@
       ]
     },
     {
+  "name": "Supervisor Documents",
+  "path": "pdf/Supervisor Documents",
+  "files": [
+    {
+      "title": "Increasing Final Chiller Proximity Switch Signal Fault Time",
+      "file": "Increasing Final Chiller Proximity Switch Signal Fault Time.pdf",
+      "passwordProtected": true
+    }
+  ]
+},
+    {
       "name": "TKO Doors",
       "path": "pdf/TKO Doors",
       "files": [],
