@@ -675,6 +675,13 @@ fetch("folders.json", { cache: "no-store" })
   });
 </script>
 
-<!-- PWA: optional service worker will be added in a later step -->
+<script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("/public-pdf-library/sw.js");
+    });
+  }
+</script>
+
 </body>
 </html>
