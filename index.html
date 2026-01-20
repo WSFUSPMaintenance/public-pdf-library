@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>USP Maintenance Library</title>
 
+  <!-- PWA: manifest + theme color -->
+  <link rel="manifest" href="/public-pdf-library/manifest.json">
+  <meta name="theme-color" content="#ffffff">
+
   <style>
     :root{
       --bg:#f4f4f4;
@@ -670,5 +674,7 @@ fetch("folders.json", { cache: "no-store" })
     content.innerHTML = `<div class="empty">Could not load folders.json. Confirm it is in the same folder as index.html and valid JSON.</div>`;
   });
 </script>
+
+<!-- PWA: optional service worker will be added in a later step -->
 </body>
 </html>
