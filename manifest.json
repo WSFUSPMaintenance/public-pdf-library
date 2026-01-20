@@ -1,0 +1,10 @@
+{
+  "name": "USP Maintenance Library",
+  "short_name": "USP Library",
+  "start_url": "/public-pdf-library/",
+  "scope": "/public-pdf-library/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": []
+}
