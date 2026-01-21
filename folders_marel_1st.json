@@ -1,3 +1,21 @@
 {
-  "folders": []
+  "folders": [
+    {
+      "name": "Marel Box Machines",
+      "path": "pdf/Marel/1st Processing/Box Machines",
+      "files": [],
+      "categories": [
+        {
+          "name": "A2147-R",
+          "path": "pdf/Marel/1st Processing/Box Machines/A2147-R",
+          "files": [
+            {
+              "title": "A2147-R Operation & Maintenance",
+              "file": "A2147-R_Operation_Manual.pdf"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
