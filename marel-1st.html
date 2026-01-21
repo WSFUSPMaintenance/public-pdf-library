@@ -1,1 +1,687 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marel, 1st Processing Equipment</title>
 
+  <!-- PWA: manifest + theme color -->
+  <link rel="manifest" href="/public-pdf-library/manifest.json">
+  <meta name="theme-color" content="#ffffff">
+
+  <style>
+    :root{
+      --bg:#f4f4f4;
+      --card:#ffffff;
+      --text:#111;
+      --muted:#666;
+      --line:#e6e6e6;
+      --shadow:0 1px 10px rgba(0,0,0,0.07);
+      --radius:14px;
+      --pad:14px;
+      --tap:52px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background: var(--bg);
+      margin: 0;
+      padding: 0;
+      color: var(--text);
+    }
+
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 12px;
+    }
+
+    /* Sticky header area */
+    .top {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: var(--bg);
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    .titlebar {
+      display:flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 0 2px 10px 2px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 20px;
+      letter-spacing: 0.2px;
+    }
+
+    .where {
+      color: var(--muted);
+      font-size: 13px;
+      text-align: right;
+      line-height: 1.2;
+      max-width: 55%;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: var(--radius);
+      padding: var(--pad);
+      box-shadow: var(--shadow);
+      border: 1px solid var(--line);
+    }
+
+    .row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: nowrap;
+      align-items: center;
+    }
+
+    .searchWrap{
+      position: relative;
+      flex: 1;
+      min-width: 0;
+    }
+
+    input {
+      width: 100%;
+      height: var(--tap);
+      padding: 0 44px 0 14px;
+      font-size: 16px;
+      border-radius: 12px;
+      border: 1px solid #cfcfcf;
+      outline: none;
+      background: #fff;
+    }
+
+    input:focus {
+      border-color: #999;
+      box-shadow: 0 0 0 3px rgba(0,0,0,0.06);
+    }
+
+    .clearBtn{
+      position:absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      height: 34px;
+      width: 34px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: #fff;
+      cursor: pointer;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      line-height: 1;
+      color: #333;
+    }
+
+    .btn {
+      height: var(--tap);
+      padding: 0 14px;
+      border-radius: 12px;
+      border: 1px solid var(--line);
+      background: #111;
+      color: #fff;
+      font-size: 15px;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    .btn.secondary{
+      background: #fff;
+      color: #111;
+    }
+
+    .btn:disabled {
+      opacity: 0.45;
+      cursor: default;
+    }
+
+    .metaRow{
+      display:flex;
+      align-items:center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .crumbs {
+      margin: 10px 2px 0 2px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .crumb {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: #fff;
+      color: #111;
+      font-size: 13px;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .crumb.current{
+      background: #111;
+      border-color: #111;
+      color: #fff;
+      cursor: default;
+    }
+
+    .contentCard {
+      margin-top: 12px;
+      padding: 12px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    @media (min-width: 720px) {
+      .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      h1 { font-size: 22px; }
+    }
+
+    @media (min-width: 1024px) {
+      .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    }
+
+    .tile {
+      background: #fff;
+      border-radius: 14px;
+      padding: 14px;
+      border: 1px solid var(--line);
+      text-decoration: none;
+      color: #000;
+      cursor: pointer;
+      min-height: 78px;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      transition: transform 0.06s ease, background 0.12s ease;
+      touch-action: manipulation;
+    }
+
+    .tile:active {
+      transform: scale(0.99);
+      background: #f3f3f3;
+    }
+
+    .tileTitle {
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 1.25;
+      margin: 0;
+    }
+
+    .tileSub {
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 6px;
+    }
+
+    .list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .fileRow {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 14px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: #fff;
+      text-decoration: none;
+      color: #111;
+      min-height: 64px;
+      transition: background 0.12s ease;
+      touch-action: manipulation;
+    }
+
+    .fileRow:active { background: #f3f3f3; }
+
+    .fileText {
+      min-width: 0;
+      flex: 1;
+    }
+
+    .fileTitle {
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 1.25;
+      margin: 0;
+      word-break: break-word;
+    }
+
+    .fileMeta {
+      margin-top: 6px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.2;
+      word-break: break-word;
+    }
+
+    .openPill {
+      flex: 0 0 auto;
+      padding: 8px 10px;
+      border-radius: 999px;
+      background: #111;
+      color: #fff;
+      font-size: 12px;
+      border: 1px solid #111;
+    }
+
+    .pill {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: #eee;
+      font-size: 12px;
+      margin-left: 6px;
+    }
+
+    .empty {
+      padding: 18px;
+      border-radius: 14px;
+      border: 1px dashed #d7d7d7;
+      background: #fff;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div class="titlebar">
+        <h1>USP Maintenance Library</h1>
+        <div id="where" class="where"></div>
+      </div>
+
+      <div class="card">
+        <div class="row">
+          <div class="searchWrap">
+            <input id="search" placeholder="Search manufacturers, categories, manuals" autocomplete="off" inputmode="search">
+            <button id="clearBtn" class="clearBtn" aria-label="Clear search" title="Clear">×</button>
+          </div>
+          <button id="backBtn" class="btn secondary" disabled>Back</button>
+          <button id="homeBtn" class="btn" disabled>Home</button>
+        </div>
+        <div class="metaRow">
+          <div id="status">Loading…</div>
+          <div id="count"></div>
+        </div>
+
+        <div id="crumbs" class="crumbs" style="display:none"></div>
+      </div>
+    </div>
+
+    <div id="content" class="card contentCard"></div>
+  </div>
+
+<script>
+let data;
+let mode = "home";
+let mfgIndex = null;
+let catIndex = null;
+
+const content = document.getElementById("content");
+const status = document.getElementById("status");
+const countEl = document.getElementById("count");
+const searchBox = document.getElementById("search");
+const clearBtn = document.getElementById("clearBtn");
+const homeBtn = document.getElementById("homeBtn");
+const backBtn = document.getElementById("backBtn");
+const crumbsEl = document.getElementById("crumbs");
+const whereEl = document.getElementById("where");
+
+function esc(t) {
+  return String(t).replace(/[&<>"']/g, m => ({
+    "&":"&amp;","<":"&lt;",">":"&gt;",
+    '"':"&quot;","'":"&#39;"
+  }[m]));
+}
+
+function fileUrl(base, file) {
+  return base.replace(/\/$/, "") + "/" + file;
+}
+
+function safeLen(x){ return Array.isArray(x) ? x.length : 0; }
+
+function computeTotals() {
+  // Add precomputed counts for display only, no extra fetches.
+  data.folders.forEach(mfg => {
+    let catCount = safeLen(mfg.categories);
+    let fileCount = 0;
+    (mfg.categories || []).forEach(cat => {
+      fileCount += safeLen(cat.files);
+    });
+    mfg._catCount = catCount;
+    mfg._fileCount = fileCount;
+  });
+}
+
+function setWhereLine() {
+  if (!data) { whereEl.textContent = ""; return; }
+  if (mode === "home") { whereEl.textContent = "Select a manufacturer"; return; }
+  if (mode === "mfg") {
+    const mfg = data.folders[mfgIndex];
+    whereEl.textContent = mfg ? mfg.name : "";
+    return;
+  }
+  if (mode === "cat") {
+    const mfg = data.folders[mfgIndex];
+    const cat = mfg && mfg.categories ? mfg.categories[catIndex] : null;
+    whereEl.textContent = mfg && cat ? (mfg.name + " / " + cat.name) : "";
+    return;
+  }
+  if (mode === "search") { whereEl.textContent = "Search"; return; }
+}
+
+function setCrumbs() {
+  crumbsEl.innerHTML = "";
+  crumbsEl.style.display = "none";
+
+  if (mode === "home" || mode === "search") return;
+
+  crumbsEl.style.display = "flex";
+
+  const addCrumb = (label, onclick, isCurrent) => {
+    const div = document.createElement("div");
+    div.className = "crumb" + (isCurrent ? " current" : "");
+    div.innerHTML = esc(label);
+    if (!isCurrent) div.onclick = onclick;
+    crumbsEl.appendChild(div);
+  };
+
+  addCrumb("Home", () => goHome(), false);
+
+  const mfg = data.folders[mfgIndex];
+  if (!mfg) return;
+
+  addCrumb(mfg.name, () => openMfg(mfgIndex), mode === "mfg");
+
+  if (mode === "cat") {
+    const cat = (mfg.categories || [])[catIndex];
+    if (cat) addCrumb(cat.name, () => {}, true);
+  }
+}
+
+function goHome() {
+  mode = "home";
+  mfgIndex = null;
+  catIndex = null;
+  searchBox.value = "";
+  clearBtn.style.display = "none";
+  render();
+}
+
+function goBack() {
+  if (mode === "cat") {
+    mode = "mfg";
+    catIndex = null;
+  } else if (mode === "mfg") {
+    goHome();
+    return;
+  } else if (mode === "search") {
+    goHome();
+    return;
+  }
+  render();
+}
+
+homeBtn.onclick = goHome;
+backBtn.onclick = goBack;
+
+clearBtn.onclick = () => {
+  searchBox.value = "";
+  clearBtn.style.display = "none";
+  goHome();
+};
+
+searchBox.oninput = () => {
+  const has = !!searchBox.value.trim();
+  clearBtn.style.display = has ? "flex" : "none";
+  if (has) {
+    mode = "search";
+  } else {
+    goHome();
+    return;
+  }
+  render();
+};
+
+function render() {
+  if (!data) return;
+
+  // Buttons
+  homeBtn.disabled = (mode === "home");
+  backBtn.disabled = (mode === "home");
+  if (mode === "mfg") backBtn.disabled = false;
+  if (mode === "cat") backBtn.disabled = false;
+  if (mode === "search") backBtn.disabled = false;
+
+  setWhereLine();
+  setCrumbs();
+
+  if (mode === "home") {
+    status.textContent = "Select a manufacturer";
+    countEl.textContent = data.folders.length + " manufacturers";
+    renderManufacturers();
+  } else if (mode === "mfg") {
+    renderCategories();
+  } else if (mode === "cat") {
+    renderFiles();
+  } else if (mode === "search") {
+    renderSearch();
+  }
+}
+
+function renderManufacturers() {
+  let html = `<div class="grid">`;
+  data.folders.forEach((mfg, i) => {
+    const catCount = mfg._catCount ?? safeLen(mfg.categories);
+    const fileCount = mfg._fileCount ?? 0;
+    const sub = catCount + " categories" + (fileCount ? (", " + fileCount + " files") : "");
+    html += `
+      <div class="tile" onclick="openMfg(${i})" role="button" tabindex="0">
+        <div class="tileTitle">${esc(mfg.name)}</div>
+        <div class="tileSub">${esc(sub)}</div>
+      </div>`;
+  });
+  html += `</div>`;
+  content.innerHTML = html;
+}
+
+function openMfg(i) {
+  mode = "mfg";
+  mfgIndex = i;
+  catIndex = null;
+  render();
+}
+
+function renderCategories() {
+  const mfg = data.folders[mfgIndex];
+  status.textContent = mfg.name;
+  countEl.textContent = (mfg._catCount ?? safeLen(mfg.categories)) + " categories";
+  let html = `<div class="grid">`;
+
+  const cats = (mfg.categories || []);
+  if (!cats.length) {
+    content.innerHTML = `<div class="empty">No categories found under this manufacturer yet.</div>`;
+    return;
+  }
+
+  cats.forEach((cat, i) => {
+    const fc = safeLen(cat.files);
+    html += `
+      <div class="tile" onclick="openCat(${i})" role="button" tabindex="0">
+        <div class="tileTitle">${esc(cat.name)}</div>
+        <div class="tileSub">${fc} files</div>
+      </div>`;
+  });
+
+  html += `</div>`;
+  content.innerHTML = html;
+}
+
+function openCat(i) {
+  mode = "cat";
+  catIndex = i;
+  render();
+}
+
+function renderFiles() {
+  const mfg = data.folders[mfgIndex];
+  const cat = (mfg.categories || [])[catIndex];
+
+  status.textContent = cat.name;
+  const fileCount = safeLen(cat.files);
+  countEl.textContent = fileCount + " files";
+
+  if (!fileCount) {
+    content.innerHTML = `<div class="empty">No files listed in this category yet.</div>`;
+    return;
+  }
+
+  let html = `<div class="list">`;
+  (cat.files || []).forEach(f => {
+    const url = fileUrl(cat.path, f.file);
+    const meta = mfg.name + " / " + cat.name;
+    html += `
+      <a class="fileRow" href="${url}" target="_blank" rel="noopener">
+        <div class="fileText">
+          <div class="fileTitle">${esc(f.title)}</div>
+          <div class="fileMeta">${esc(meta)}</div>
+        </div>
+        <div class="openPill">Open</div>
+      </a>`;
+  });
+  html += `</div>`;
+  content.innerHTML = html;
+}
+
+function renderSearch() {
+  const qRaw = searchBox.value.trim();
+  const q = qRaw.toLowerCase();
+  status.textContent = "Search results";
+  countEl.textContent = "";
+
+  if (!q) {
+    content.innerHTML = `<div class="empty">Type to search manufacturers, categories, and file titles.</div>`;
+    return;
+  }
+
+  let results = [];
+
+  data.folders.forEach((mfg, mi) => {
+    if ((mfg.name || "").toLowerCase().includes(q)) {
+      results.push({ type: "mfg", label: mfg.name, mi });
+    }
+    (mfg.categories || []).forEach((cat, ci) => {
+      if ((cat.name || "").toLowerCase().includes(q)) {
+        results.push({ type: "cat", label: cat.name, mi, ci, context: mfg.name });
+      }
+      (cat.files || []).forEach(f => {
+        const t = (f.title || "").toLowerCase();
+        const fn = (f.file || "").toLowerCase();
+        if (t.includes(q) || fn.includes(q)) {
+          results.push({
+            type: "file",
+            label: f.title,
+            url: fileUrl(cat.path, f.file),
+            context: mfg.name + " / " + cat.name
+          });
+        }
+      });
+    });
+  });
+
+  countEl.textContent = results.length ? (results.length + " results") : "0 results";
+
+  if (!results.length) {
+    content.innerHTML = `<div class="empty">No matches for <strong>${esc(qRaw)}</strong>. Try a shorter term like <strong>Meyn</strong>, <strong>chiller</strong>, or <strong>manual</strong>.</div>`;
+    return;
+  }
+
+  let html = `<div class="list">`;
+  results.forEach(r => {
+    if (r.type === "file") {
+      html += `
+        <a class="fileRow" href="${r.url}" target="_blank" rel="noopener">
+          <div class="fileText">
+            <div class="fileTitle">${esc(r.label)}</div>
+            <div class="fileMeta">${esc(r.context)}</div>
+          </div>
+          <div class="openPill">Open</div>
+        </a>`;
+    } else if (r.type === "cat") {
+      html += `
+        <div class="tile" onclick="openMfg(${r.mi}); openCat(${r.ci})" role="button" tabindex="0">
+          <div class="tileTitle">${esc(r.label)} <span class="pill">Category</span></div>
+          <div class="tileSub">${esc(r.context)}</div>
+        </div>`;
+    } else {
+      html += `
+        <div class="tile" onclick="openMfg(${r.mi})" role="button" tabindex="0">
+          <div class="tileTitle">${esc(r.label)} <span class="pill">Manufacturer</span></div>
+          <div class="tileSub">${(data.folders[r.mi]._catCount ?? 0)} categories</div>
+        </div>`;
+    }
+  });
+  html += `</div>`;
+
+  content.innerHTML = html;
+}
+
+fetch("folders_marel_1st.json", { cache: "no-store" })
+  .then(r => r.json())
+  .then(j => {
+    data = j;
+    computeTotals();
+    status.textContent = "Ready";
+    render();
+  })
+  .catch(() => {
+    status.textContent = "Error loading folders.json";
+    content.innerHTML = `<div class="empty">Could not load folders.json. Confirm it is in the same folder as index.html and valid JSON.</div>`;
+  });
+</script>
+
+<script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("/public-pdf-library/sw.js");
+    });
+  }
+</script>
+
+</body>
+</html>
