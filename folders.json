@@ -710,6 +710,32 @@
         }
       ]
     },
+    { "name": "Marel",
+  "path": "",
+  "files": [],
+  "categories": [
+    {
+      "name": "1st Processing Equipment",
+      "path": "",
+      "files": [
+        {
+          "title": "Open Marel 1st Processing Library",
+          "file": "https://wsfuspmaintenance.github.io/marel-pdf-library/marel-1st.html"
+        }
+      ]
+    },
+    {
+      "name": "2nd Processing Equipment",
+      "path": "",
+      "files": [
+        {
+          "title": "Open Marel 2nd Processing Library",
+          "file": "https://wsfuspmaintenance.github.io/marel-pdf-library/marel-2nd.html"
+        }
+      ]
+    }
+  ]
+},
     { "name": "MARS Paw System", "path": "pdf/MARS Paw System", "files": [] },
     {
       "name": "Mettler Toledo",
