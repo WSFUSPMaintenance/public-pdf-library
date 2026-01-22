@@ -370,7 +370,12 @@ function esc(t) {
 }
 
 function fileUrl(base, file) {
-  return base.replace(/\/$/, "") + "/" + file;
+  // Allow absolute links (used for external manufacturer libraries like Marel)
+  const f = String(file || "").trim();
+  if (/^https?:\/\//i.test(f)) return f;
+
+  // Normal behavior for files stored in this repo
+  return base.replace(/\/$/, "") + "/" + f;
 }
 
 function safeLen(x){ return Array.isArray(x) ? x.length : 0; }
