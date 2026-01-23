@@ -710,7 +710,9 @@
         }
       ]
     },
-    { "name": "Marel",
+    { 
+        {
+  "name": "Marel",
   "path": "",
   "files": [],
   "categories": [
@@ -736,7 +738,7 @@
     }
   ]
 },
-    {
+{
   "name": "MARS Paw System",
   "path": "pdf/MARS Paw System",
   "files": [
@@ -757,14 +759,12 @@
       "file": "MARS EMS Efficiency Management System Manual.pdf"
     }
   ]
-}
- },
-    {
-      "name": "Mettler Toledo",
-      "path": "pdf/Mettler Toledo",
-      "files": [],
-      "categories": [
-        {
+},
+{
+  "name": "Mettler Toledo",
+  "path": "pdf/Mettler Toledo",
+  "files": [],
+  "categories": [
           "name": "Customer Information",
           "path": "pdf/Mettler Toledo/Customer Information",
           "files": [{ "title": "Valued Customer Letter", "file": "Valued Customer Letter.pdf" }]
