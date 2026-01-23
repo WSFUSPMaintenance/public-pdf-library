@@ -61,8 +61,14 @@
           "name": "Documents",
           "path": "pdf/Beko Air Dryer",
           "files": [
-            { "title": "CLEARPOINT_W_S040-M030_de_gb_fr_nl_1205", "file": "CLEARPOINT_W_S040-M030_de_gb_fr_nl_1205.pdf" },
-            { "title": "DRYPOINT_RAX_20-500_NA_manual_en_2012", "file": "DRYPOINT_RAX_20-500_NA_manual_en_2012.pdf" }
+            {
+              "title": "CLEARPOINT_W_S040-M030_de_gb_fr_nl_1205",
+              "file": "CLEARPOINT_W_S040-M030_de_gb_fr_nl_1205.pdf"
+            },
+            {
+              "title": "DRYPOINT_RAX_20-500_NA_manual_en_2012",
+              "file": "DRYPOINT_RAX_20-500_NA_manual_en_2012.pdf"
+            }
           ]
         }
       ]
@@ -129,7 +135,10 @@
           "path": "pdf/Bright Coop",
           "files": [
             { "title": "(NEW) COOP DUMP", "file": "(NEW) COOP DUMP.pdf" },
-            { "title": "091-21961T DESCRIPTION STD WITH TRANSFER CHAIN", "file": "091-21961T DESCRIPTION STD WITH TRANSFER CHAIN.pdf" },
+            {
+              "title": "091-21961T DESCRIPTION STD WITH TRANSFER CHAIN",
+              "file": "091-21961T DESCRIPTION STD WITH TRANSFER CHAIN.pdf"
+            },
             {
               "title": "091-21963-01 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - October 2016 COLOR",
               "file": "091-21963-01 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - October 2016 COLOR.pdf"
@@ -138,10 +147,19 @@
               "title": "091-21963-02 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - October 2016 COLOR",
               "file": "091-21963-02 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - October 2016 COLOR.pdf"
             },
-            { "title": "091-21967-01 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - Feb 2019", "file": "091-21967-01 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - Feb 2019.pdf" },
-            { "title": "091-23900 - HYDRAULIC SCHEMATIC STD DUMPER WO WASHER", "file": "091-23900 - HYDRAULIC SCHEMATIC STD DUMPER WO WASHER.pdf" },
+            {
+              "title": "091-21967-01 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - Feb 2019",
+              "file": "091-21967-01 - SCHEMATIC TRANSFER CHAIN (SOLID STATE RELAYS) - Feb 2019.pdf"
+            },
+            {
+              "title": "091-23900 - HYDRAULIC SCHEMATIC STD DUMPER WO WASHER",
+              "file": "091-23900 - HYDRAULIC SCHEMATIC STD DUMPER WO WASHER.pdf"
+            },
             { "title": "Hydraulic manifold", "file": "Hydraulic manifold.pdf" },
-            { "title": "HYDRAULIC UNIT  30 AND 40 HP Electrical X Schematic (3)", "file": "HYDRAULIC UNIT  30 AND 40 HP Electrical X Schematic (3).pdf" }
+            {
+              "title": "HYDRAULIC UNIT  30 AND 40 HP Electrical X Schematic (3)",
+              "file": "HYDRAULIC UNIT  30 AND 40 HP Electrical X Schematic (3).pdf"
+            }
           ]
         }
       ]
@@ -155,9 +173,18 @@
           "name": "Neck Skinner",
           "path": "pdf/Cantrell/Neck Skinner",
           "files": [
-            { "title": "229334 SPARE PARTS FOR NS 1002 CANTRELL NECK SKINNER", "file": "229334 SPARE PARTS FOR NS 1002 CANTRELL NECK SKINNER.pdf" },
-            { "title": "CANTRELL NECK SKINNER OVER HEAD MODEL NS-1002 OH  LEFT HAND", "file": "CANTRELL NECK SKINNER OVER HEAD MODEL NS-1002 OH  LEFT HAND.pdf" },
-            { "title": "CANTRELL NECK SKINNER OVER HEAD MODEL NS-1002 OH  RIGHT HAND", "file": "CANTRELL NECK SKINNER OVER HEAD MODEL NS-1002 OH  RIGHT HAND.pdf" },
+            {
+              "title": "229334 SPARE PARTS FOR NS 1002 CANTRELL NECK SKINNER",
+              "file": "229334 SPARE PARTS FOR NS 1002 CANTRELL NECK SKINNER.pdf"
+            },
+            {
+              "title": "CANTRELL NECK SKINNER OVER HEAD MODEL NS-1002 OH  LEFT HAND",
+              "file": "CANTRELL NECK SKINNER OVER HEAD MODEL NS-1002 OH  LEFT HAND.pdf"
+            },
+            {
+              "title": "CANTRELL NECK SKINNER OVER HEAD MODEL NS-1002 OH  RIGHT HAND",
+              "file": "CANTRELL NECK SKINNER OVER HEAD MODEL NS-1002 OH  RIGHT HAND.pdf"
+            },
             { "title": "CANTRELL NECK SKINNER DATA PLATE", "file": "CANTRELL NECK SKINNER DATA PLATE.docx" }
           ]
         },
@@ -327,8 +354,12 @@
         {
           "name": "Conveyor Master List",
           "path": "pdf/D&F Equipment/Conveyor Master List",
-          "files": [{ "title": "wfusal-parts_chillers-251202(Belt & Drive Data Matrix)", "file": "wfusal-parts_chillers-251202(Belt & Drive Data Matrix).csv" },
-           { "title": "wfusal-parts_chillers-260102", "file": "wfusal-parts_chillers-260102.xlsx" }
+          "files": [
+            {
+              "title": "wfusal-parts_chillers-251202(Belt & Drive Data Matrix)",
+              "file": "wfusal-parts_chillers-251202(Belt & Drive Data Matrix).csv"
+            },
+            { "title": "wfusal-parts_chillers-260102", "file": "wfusal-parts_chillers-260102.xlsx" }
           ]
         },
         {
@@ -336,31 +367,31 @@
           "path": "pdf/D&F Equipment/Catenary Sag Conveyor List",
           "files": [{ "title": "WSF C121241 Catenary Conveyor List", "file": "WSF C121241 Catenary Conveyor List.pdf" }]
         },
-{
-  "name": "X Conveyors StackOff",
-  "path": "pdf/D&F Equipment/X Conveyors StackOff",
-  "files": [
-    { "title": "X-90", "file": "X-90.jpg" },
-    { "title": "X-91", "file": "X-91.jpg" },
-    { "title": "X-92", "file": "X-92.jpg" },
-    { "title": "X-93", "file": "X-93.jpg" },
-    { "title": "X-94", "file": "X-94.jpg" },
-    { "title": "X-95", "file": "X-95.jpg" },
-    { "title": "X-96", "file": "X-96.jpg" },
-    { "title": "X-97", "file": "X-97.jpg" },
-    { "title": "X-98", "file": "X-98.jpg" },
-    { "title": "X-99", "file": "X-99.jpg" },
-    { "title": "C121241-X90", "file": "C121241-X90.pdf" },
-    { "title": "C121241-X91", "file": "C121241-X91.pdf" },
-    { "title": "C121241-X92", "file": "C121241-X92.pdf" },
-    { "title": "C121241-X93", "file": "C121241-X93.pdf" },
-    { "title": "C121241-X94", "file": "C121241-X94.pdf" },
-    { "title": "C121241-X95 & X99", "file": "C121241-X95_X99.pdf" },
-    { "title": "C121241-X96", "file": "C121241-X96.pdf" },
-    { "title": "C121241-X97", "file": "C121241-X97.pdf" },
-    { "title": "C121241-X98", "file": "C121241-X98.pdf" }
-  ]
-}
+        {
+          "name": "X Conveyors StackOff",
+          "path": "pdf/D&F Equipment/X Conveyors StackOff",
+          "files": [
+            { "title": "X-90", "file": "X-90.jpg" },
+            { "title": "X-91", "file": "X-91.jpg" },
+            { "title": "X-92", "file": "X-92.jpg" },
+            { "title": "X-93", "file": "X-93.jpg" },
+            { "title": "X-94", "file": "X-94.jpg" },
+            { "title": "X-95", "file": "X-95.jpg" },
+            { "title": "X-96", "file": "X-96.jpg" },
+            { "title": "X-97", "file": "X-97.jpg" },
+            { "title": "X-98", "file": "X-98.jpg" },
+            { "title": "X-99", "file": "X-99.jpg" },
+            { "title": "C121241-X90", "file": "C121241-X90.pdf" },
+            { "title": "C121241-X91", "file": "C121241-X91.pdf" },
+            { "title": "C121241-X92", "file": "C121241-X92.pdf" },
+            { "title": "C121241-X93", "file": "C121241-X93.pdf" },
+            { "title": "C121241-X94", "file": "C121241-X94.pdf" },
+            { "title": "C121241-X95 & X99", "file": "C121241-X95_X99.pdf" },
+            { "title": "C121241-X96", "file": "C121241-X96.pdf" },
+            { "title": "C121241-X97", "file": "C121241-X97.pdf" },
+            { "title": "C121241-X98", "file": "C121241-X98.pdf" }
+          ]
+        }
       ]
     },
     {
@@ -551,9 +582,18 @@
           "path": "pdf/JBT Paw System/Paw Control System",
           "files": [
             { "title": "Efficiency Management System Manual", "file": "Efficiency Management System Manual.lnk" },
-            { "title": "Engineering Approval Package Wayne Sanderson Union Springs AL 203606S", "file": "Engineering Approval Package Wayne Sanderson Union Springs AL 203606S.pdf" },
-            { "title": "JBT 1ST PROCESSING (PICKING LINE),SN4391,WAYNE SANDERSON,UNION SPRINGS,AL", "file": "JBT 1ST PROCESSING (PICKING LINE),SN4391,WAYNE SANDERSON,UNION SPRINGS,AL.pdf" },
-            { "title": "JBT PAW TRACKING,SN4390,WAYNE SANDERSON,UNION SPRINGS,AL", "file": "JBT PAW TRACKING,SN4390,WAYNE SANDERSON,UNION SPRINGS,AL.pdf" },
+            {
+              "title": "Engineering Approval Package Wayne Sanderson Union Springs AL 203606S",
+              "file": "Engineering Approval Package Wayne Sanderson Union Springs AL 203606S.pdf"
+            },
+            {
+              "title": "JBT 1ST PROCESSING (PICKING LINE),SN4391,WAYNE SANDERSON,UNION SPRINGS,AL",
+              "file": "JBT 1ST PROCESSING (PICKING LINE),SN4391,WAYNE SANDERSON,UNION SPRINGS,AL.pdf"
+            },
+            {
+              "title": "JBT PAW TRACKING,SN4390,WAYNE SANDERSON,UNION SPRINGS,AL",
+              "file": "JBT PAW TRACKING,SN4390,WAYNE SANDERSON,UNION SPRINGS,AL.pdf"
+            },
             { "title": "Paw Tracking Operations Manual", "file": "Paw Tracking Operations Manual.lnk" },
             { "title": "1-SN4390", "file": "1-SN4390.pdf" },
             { "title": "1-SN4391", "file": "1-SN4391.pdf" },
@@ -710,61 +750,49 @@
         }
       ]
     },
-    { 
-        {
-  "name": "Marel",
-  "path": "",
-  "files": [],
-  "categories": [
     {
-      "name": "1st Processing Equipment",
+      "name": "Marel",
       "path": "",
-      "files": [
+      "files": [],
+      "categories": [
         {
-          "title": "Open Marel 1st Processing Library",
-          "file": "https://wsfuspmaintenance.github.io/marel-pdf-library/marel-1st.html"
+          "name": "1st Processing Equipment",
+          "path": "",
+          "files": [
+            {
+              "title": "Open Marel 1st Processing Library",
+              "file": "https://wsfuspmaintenance.github.io/marel-pdf-library/marel-1st.html"
+            }
+          ]
+        },
+        {
+          "name": "2nd Processing Equipment",
+          "path": "",
+          "files": [
+            {
+              "title": "Open Marel 2nd Processing Library",
+              "file": "https://wsfuspmaintenance.github.io/marel-pdf-library/marel-2nd.html"
+            }
+          ]
         }
       ]
     },
     {
-      "name": "2nd Processing Equipment",
-      "path": "",
+      "name": "MARS Paw System",
+      "path": "pdf/MARS Paw System",
       "files": [
-        {
-          "title": "Open Marel 2nd Processing Library",
-          "file": "https://wsfuspmaintenance.github.io/marel-pdf-library/marel-2nd.html"
-        }
+        { "title": "Glossary of Terms", "file": "Glossary of Terms.pdf" },
+        { "title": "JBT 1st Processing Counter Operations Manual", "file": "JBT 1st Processing Counter Operations Manual.pdf" },
+        { "title": "JBT Paw Tracking Manual", "file": "JBT Paw Tracking Manual.pdf" },
+        { "title": "MARS EMS Efficiency Management System Manual", "file": "MARS EMS Efficiency Management System Manual.pdf" }
       ]
-    }
-  ]
-},
-{
-  "name": "MARS Paw System",
-  "path": "pdf/MARS Paw System",
-  "files": [
-    {
-      "title": "Glossary of Terms",
-      "file": "Glossary of Terms.pdf"
     },
     {
-      "title": "JBT 1st Processing Counter Operations Manual",
-      "file": "JBT 1st Processing Counter Operations Manual.pdf"
-    },
-    {
-      "title": "JBT Paw Tracking Manual",
-      "file": "JBT Paw Tracking Manual.pdf"
-    },
-    {
-      "title": "MARS EMS Efficiency Management System Manual",
-      "file": "MARS EMS Efficiency Management System Manual.pdf"
-    }
-  ]
-},
-{
-  "name": "Mettler Toledo",
-  "path": "pdf/Mettler Toledo",
-  "files": [],
-  "categories": [
+      "name": "Mettler Toledo",
+      "path": "pdf/Mettler Toledo",
+      "files": [],
+      "categories": [
+        {
           "name": "Customer Information",
           "path": "pdf/Mettler Toledo/Customer Information",
           "files": [{ "title": "Valued Customer Letter", "file": "Valued Customer Letter.pdf" }]
@@ -782,9 +810,18 @@
           "name": "Manuals",
           "path": "pdf/Mettler Toledo/Manuals",
           "files": [
-            { "title": "M30 R-Series Installation Manual 30573927 EN-US_E", "file": "M30 R-Series Installation Manual 30573927 EN-US_E .pdf" },
-            { "title": "M30 R-Series_OM_en-US_C_30710293", "file": "M30 R-Series_OM_en-US_C_30710293 .pdf" },
-            { "title": "SL1500_SL2000 Metal Detection System User Manual_EnUS_28280503", "file": "SL1500_SL2000 Metal Detection System User Manual_EnUS_28280503 .pdf" }
+            {
+              "title": "M30 R-Series Installation Manual 30573927 EN-US_E",
+              "file": "M30 R-Series Installation Manual 30573927 EN-US_E .pdf"
+            },
+            {
+              "title": "M30 R-Series_OM_en-US_C_30710293",
+              "file": "M30 R-Series_OM_en-US_C_30710293 .pdf"
+            },
+            {
+              "title": "SL1500_SL2000 Metal Detection System User Manual_EnUS_28280503",
+              "file": "SL1500_SL2000 Metal Detection System User Manual_EnUS_28280503 .pdf"
+            }
           ]
         },
         {
@@ -898,6 +935,7 @@
     {
       "name": "Phoenix Innovations",
       "path": "pdf/Phoenix Innovations",
+      "files": [],
       "categories": [
         {
           "name": "Parts Chillers",
@@ -1046,22 +1084,22 @@
       ]
     },
     {
-  "name": "Supervisor Documents",
-  "path": "pdf/Supervisor Documents",
-  "files": [],
-  "categories": [
-    {
-      "name": "Documents",
-      "path": "pdf/Supervisor Documents/Documents",
-      "files": [
+      "name": "Supervisor Documents",
+      "path": "pdf/Supervisor Documents",
+      "files": [],
+      "categories": [
         {
-          "title": "Increasing Final Chiller Proximity Switch Signal Fault Time",
-          "file": "Increasing Final Chiller Proximity Switch Signal Fault Time.pdf"
+          "name": "Documents",
+          "path": "pdf/Supervisor Documents/Documents",
+          "files": [
+            {
+              "title": "Increasing Final Chiller Proximity Switch Signal Fault Time",
+              "file": "Increasing Final Chiller Proximity Switch Signal Fault Time.pdf"
+            }
+          ]
         }
       ]
-    }
-  ]
-},
+    },
     {
       "name": "TKO Doors",
       "path": "pdf/TKO Doors",
