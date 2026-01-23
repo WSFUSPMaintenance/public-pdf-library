@@ -736,7 +736,29 @@
     }
   ]
 },
-    { "name": "MARS Paw System", "path": "pdf/MARS Paw System", "files": [] },
+    {
+  "name": "MARS Paw System",
+  "path": "pdf/MARS Paw System",
+  "files": [
+    {
+      "title": "Glossary of Terms",
+      "file": "Glossary of Terms.pdf"
+    },
+    {
+      "title": "JBT 1st Processing Counter Operations Manual",
+      "file": "JBT 1st Processing Counter Operations Manual.pdf"
+    },
+    {
+      "title": "JBT Paw Tracking Manual",
+      "file": "JBT Paw Tracking Manual.pdf"
+    },
+    {
+      "title": "MARS EMS Efficiency Management System Manual",
+      "file": "MARS EMS Efficiency Management System Manual.pdf"
+    }
+  ]
+}
+ },
     {
       "name": "Mettler Toledo",
       "path": "pdf/Mettler Toledo",
