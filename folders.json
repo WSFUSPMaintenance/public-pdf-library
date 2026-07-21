@@ -68,7 +68,7 @@
                                                              },
                                                              {
                                                                  "title":  "BA625 Skinner Manual",
-                                                                 "file":  "BA625 Skinner Manual.pdf"
+                                                                 "file":  "BA625 Skinner Manual.PDF"
                                                              },
                                                              {
                                                                  "title":  "BA625 Skinner Rev Z",
@@ -86,7 +86,7 @@
                                                "files":  [
                                                              {
                                                                  "title":  "Skinner 625 Maintenance",
-                                                                 "file":  "Skinner 625 Maintenance.mp4"
+                                                                 "file":  "Skinner 625 Maintenance"
                                                              }
                                                          ]
                                            },
@@ -506,8 +506,8 @@
                                                                  "file":  "C121241-C-09.pdf"
                                                              },
                                                              {
-                                                                 "title":  "C121241-C-10 part 1",
-                                                                 "file":  "C121241-C-10 part 1.pdf"
+                                                                 "title":  "C121241-C-10",
+                                                                 "file":  "C121241-C-10.pdf"
                                                              },
                                                              {
                                                                  "title":  "C121241-C-10 part 2",
@@ -1418,7 +1418,7 @@
                                                "files":  [
                                                              {
                                                                  "title":  "INDUSTRIAL ORDER FORM-032713",
-                                                                 "file":  "INDUSTRIAL ORDER FORM-032713.pdf"
+                                                                 "file":  "1 - INDUSTRIAL ORDER FORM-032713.pdf"
                                                              },
                                                              {
                                                                  "title":  "HD Parts ID Manual 051310",
@@ -1880,8 +1880,8 @@
                                                                  "file":  "9403-4-6MLSS_v2.24-2.25_Manual.pdf"
                                                              },
                                                              {
-                                                                 "title":  "D-Series_PowerSupplyG12_V1.24ï€¢2.25_Manual-1",
-                                                                 "file":  "D-Series_PowerSupplyG12_V1.24ï€¢2.25_Manual-1.pdf"
+                                                                 "title":  "D-Series Power Supply G12 V1.24-2.25 Manual",
+                                                                 "file":  "D-Series_PowerSupplyG12_V1.242.25_Manual-1.pdf"
                                                              },
                                                              {
                                                                  "title":  "Spare Parts Quote with Drawings",
@@ -2614,10 +2614,6 @@
                                                              {
                                                                  "title":  "JBT SCALDER SYSTEM,SN4448,WAYNE SANDERSON,UNION SPRINGS,AL",
                                                                  "file":  "JBT SCALDER SYSTEM,SN4448,WAYNE SANDERSON,UNION SPRINGS,AL.pdf"
-                                                             },
-                                                             {
-                                                                 "title":  "JBT Scalder Operatations Manual",
-                                                                 "file":  "JBT Scalder Operatations Manual.lnk"
                                                              }
                                                          ]
                                            }
