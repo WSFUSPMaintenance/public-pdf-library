@@ -374,8 +374,12 @@ function fileUrl(base, file) {
   const f = String(file || "").trim();
   if (/^https?:\/\//i.test(f)) return f;
 
-  // Normal behavior for files stored in this repo
-  return base.replace(/\/$/, "") + "/" + f;
+  // Encode each path segment so spaces, #, %, and other filename characters
+  // remain part of the GitHub Pages URL instead of being treated as URL syntax.
+  return (base.replace(/\/$/, "") + "/" + f)
+    .split("/")
+    .map(segment => encodeURIComponent(segment))
+    .join("/");
 }
 
 function safeLen(x){ return Array.isArray(x) ? x.length : 0; }
