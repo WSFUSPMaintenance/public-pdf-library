@@ -375,6 +375,10 @@
                                                              {
                                                                  "title":  "M-1110-0278 REV A",
                                                                  "file":  "M-1110-0278 REV A.pdf"
+                                                             },
+                                                             {
+                                                                 "title":  "CVP 3-head Utilities",
+                                                                 "file":  "CVP 3-head Utilities.pdf"
                                                              }
                                                          ]
                                            },
@@ -2802,6 +2806,10 @@
                                                              {
                                                                  "title":  "tri_index_3",
                                                                  "file":  "tri_index_3.pdf"
+                                                             },
+                                                             {
+                                                                 "title":  "Wayne-Sanderson Farms Approval Drawings",
+                                                                 "file":  "Wayne-Sanderson Farms Approval Drawings.pdf"
                                                              }
                                                          ]
                                            }
@@ -2846,6 +2854,18 @@
                     {
                         "name":  "WulfTech Pallet Wrapper",
                         "path":  "pdf/WulfTech Pallet Wrapper",
+                        "categories":  [
+                                           {
+                                               "name":  "Utilities and Drawings",
+                                               "path":  "pdf/WulfTech Pallet Wrapper/Utilities and Drawings",
+                                               "files":  [
+                                                             {
+                                                                 "title":  "Wulftech Pallet Wrapper Utilities",
+                                                                 "file":  "Wulftech Pallet Wrapper Utilities.pdf"
+                                                             }
+                                                         ]
+                                           }
+                                       ],
                         "files":  [
 
                                   ]
