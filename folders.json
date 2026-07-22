@@ -1149,139 +1149,6 @@
                                        ]
                     },
                     {
-                        "name":  "JBT Marel",
-                        "path":  "pdf/JBT Marel",
-                        "files":  [
-
-                                  ],
-                        "categories":  [
-                                           {
-                                               "name":  "Sensor X 23",
-                                               "path":  "pdf/JBT Marel/Sensor X 23",
-                                               "files":  [
-                                                             {
-                                                                 "title":  "SensorX 302 System-ug-eng",
-                                                                 "file":  "SensorX 302 System-ug-eng.pdf"
-                                                             },
-                                                             {
-                                                                 "title":  "SensorX Monthly PM List",
-                                                                 "file":  "SensorX Monthly PM List.pdf"
-                                                             },
-                                                             {
-                                                                 "title":  "SensorX Weekly PM List",
-                                                                 "file":  "SensorX Weekly PM List.pdf"
-                                                             },
-                                                             {
-                                                                 "title":  "SensorX23-userg-v2-6",
-                                                                 "file":  "SensorX23-userg-v2-6.pdf"
-                                                             }
-                                                         ]
-                                           },
-                                           {
-                                               "name":  "Sensor X 25",
-                                               "path":  "pdf/JBT Marel/Sensor X 25",
-                                               "files":  [
-                                                             {
-                                                                 "title":  "SensorX502_V2_ENG-9",
-                                                                 "file":  "SensorX502_V2_ENG-9.pdf"
-                                                             },
-                                                             {
-                                                                 "title":  "Declaration",
-                                                                 "file":  "Declaration.pdf"
-                                                             }
-                                                         ]
-                                           },
-                                           {
-                                               "name":  "Training",
-                                               "path":  "pdf/JBT Marel/Training",
-                                               "files":  [
-                                                             {
-                                                                 "title":  "SensorX Startup and Calibration 2017",
-                                                                 "file":  "SensorX Startup and Calibration 2017.pdf"
-                                                             },
-                                                             {
-                                                                 "title":  "SensorX Test Block Procedure",
-                                                                 "file":  "SensorX Test Block Procedure.pdf"
-                                                             },
-                                                             {
-                                                                 "title":  "SensorX Weekly PM List 2017",
-                                                                 "file":  "SensorX Weekly PM List 2017.pdf"
-                                                             },
-                                                             {
-                                                                 "title":  "SX info",
-                                                                 "file":  "SX info.pdf"
-                                                             },
-                                                             {
-                                                                 "title":  "SX23 reject timing explained",
-                                                                 "file":  "SX23 reject timing explained.pptx"
-                                                             },
-                                                             {
-                                                                 "title":  "X-ray FAQ",
-                                                                 "file":  "X-ray FAQ.pdf"
-                                                             },
-                                                             {
-                                                                 "title":  "Bone Reject FAQ",
-                                                                 "file":  "Bone Reject FAQ.pdf"
-                                                             },
-                                                             {
-                                                                 "title":  "Correct Program Thresholds",
-                                                                 "file":  "Correct Program Thresholds.pdf"
-                                                             },
-                                                             {
-                                                                 "title":  "Infeed Quality Explained",
-                                                                 "file":  "Infeed Quality Explained.pdf"
-                                                             },
-                                                             {
-                                                                 "title":  "SensorX Monthly PM List 2017",
-                                                                 "file":  "SensorX Monthly PM List 2017.pdf"
-                                                             }
-                                                         ]
-                                           },
-                                           {
-                                               "name":  "Sensor X 500",
-                                               "path":  "pdf/JBT Marel/Sensor X 500",
-                                               "files":  [
-                                                             {
-                                                                 "title":  "90840_04_A_ENG",
-                                                                 "file":  "90840_04_A_ENG.pdf"
-                                                             },
-                                                             {
-                                                                 "title":  "TD_GR6525_SensorX500",
-                                                                 "file":  "TD_GR6525_SensorX500.pdf"
-                                                             },
-                                                             {
-                                                                 "title":  "GR6525-CONTROL UNIT-SX500-4879299_N_1",
-                                                                 "file":  "GR6525~1.PDF"
-                                                             },
-                                                             {
-                                                                 "title":  "O211672",
-                                                                 "file":  "O211672 .pdf"
-                                                             },
-                                                             {
-                                                                 "title":  "PTYP06N02",
-                                                                 "file":  "PTYP06N02.pdf"
-                                                             },
-                                                             {
-                                                                 "title":  "1771386 - Recommended spares new SX500 wrong quote",
-                                                                 "file":  "1771386 - Recommended spares new SX500 wrong quote.pdf"
-                                                             },
-                                                             {
-                                                                 "title":  "Turning ON-OFF Out of Bounds Reject SensorX",
-                                                                 "file":  "Turning ON-OFF Out of Bounds Reject SensorX.pdf"
-                                                             },
-                                                             {
-                                                                 "title":  "Breast X Ray 1",
-                                                                 "file":  "Breast X Ray 1.jpg"
-                                                             },
-                                                             {
-                                                                 "title":  "Breast X Ray 2",
-                                                                 "file":  "Breast X Ray 2.jpg"
-                                                             }
-                                                         ]
-                                           }
-                                       ]
-                    },
-                    {
                         "name":  "JBT Paw System",
                         "path":  "pdf/JBT Paw System",
                         "files":  [
@@ -1676,12 +1543,126 @@
                                                          ]
                                            },
                                            {
-                                               "name":  "2nd Processing Equipment",
-                                               "path":  "",
+                                               "name":  "2nd Processing - Sensor X 23",
+                                               "path":  "pdf/JBT Marel/Sensor X 23",
                                                "files":  [
                                                              {
-                                                                 "title":  "Open Marel 2nd Processing Library",
-                                                                 "file":  "https://wsfuspmaintenance.github.io/marel-pdf-library/marel-2nd.html"
+                                                                 "title":  "SensorX 302 System-ug-eng",
+                                                                 "file":  "SensorX 302 System-ug-eng.pdf"
+                                                             },
+                                                             {
+                                                                 "title":  "SensorX Monthly PM List",
+                                                                 "file":  "SensorX Monthly PM List.pdf"
+                                                             },
+                                                             {
+                                                                 "title":  "SensorX Weekly PM List",
+                                                                 "file":  "SensorX Weekly PM List.pdf"
+                                                             },
+                                                             {
+                                                                 "title":  "SensorX23-userg-v2-6",
+                                                                 "file":  "SensorX23-userg-v2-6.pdf"
+                                                             }
+                                                         ]
+                                           },
+                                           {
+                                               "name":  "2nd Processing - Sensor X 25",
+                                               "path":  "pdf/JBT Marel/Sensor X 25",
+                                               "files":  [
+                                                             {
+                                                                 "title":  "SensorX502_V2_ENG-9",
+                                                                 "file":  "SensorX502_V2_ENG-9.pdf"
+                                                             },
+                                                             {
+                                                                 "title":  "Declaration",
+                                                                 "file":  "Declaration.pdf"
+                                                             }
+                                                         ]
+                                           },
+                                           {
+                                               "name":  "2nd Processing - Sensor X Training",
+                                               "path":  "pdf/JBT Marel/Training",
+                                               "files":  [
+                                                             {
+                                                                 "title":  "SensorX Startup and Calibration 2017",
+                                                                 "file":  "SensorX Startup and Calibration 2017.pdf"
+                                                             },
+                                                             {
+                                                                 "title":  "SensorX Test Block Procedure",
+                                                                 "file":  "SensorX Test Block Procedure.pdf"
+                                                             },
+                                                             {
+                                                                 "title":  "SensorX Weekly PM List 2017",
+                                                                 "file":  "SensorX Weekly PM List 2017.pdf"
+                                                             },
+                                                             {
+                                                                 "title":  "SX info",
+                                                                 "file":  "SX info.pdf"
+                                                             },
+                                                             {
+                                                                 "title":  "SX23 reject timing explained",
+                                                                 "file":  "SX23 reject timing explained.pptx"
+                                                             },
+                                                             {
+                                                                 "title":  "X-ray FAQ",
+                                                                 "file":  "X-ray FAQ.pdf"
+                                                             },
+                                                             {
+                                                                 "title":  "Bone Reject FAQ",
+                                                                 "file":  "Bone Reject FAQ.pdf"
+                                                             },
+                                                             {
+                                                                 "title":  "Correct Program Thresholds",
+                                                                 "file":  "Correct Program Thresholds.pdf"
+                                                             },
+                                                             {
+                                                                 "title":  "Infeed Quality Explained",
+                                                                 "file":  "Infeed Quality Explained.pdf"
+                                                             },
+                                                             {
+                                                                 "title":  "SensorX Monthly PM List 2017",
+                                                                 "file":  "SensorX Monthly PM List 2017.pdf"
+                                                             }
+                                                         ]
+                                           },
+                                           {
+                                               "name":  "2nd Processing - Sensor X 500",
+                                               "path":  "pdf/JBT Marel/Sensor X 500",
+                                               "files":  [
+                                                             {
+                                                                 "title":  "90840_04_A_ENG",
+                                                                 "file":  "90840_04_A_ENG.pdf"
+                                                             },
+                                                             {
+                                                                 "title":  "TD_GR6525_SensorX500",
+                                                                 "file":  "TD_GR6525_SensorX500.pdf"
+                                                             },
+                                                             {
+                                                                 "title":  "GR6525-CONTROL UNIT-SX500-4879299_N_1",
+                                                                 "file":  "GR6525~1.PDF"
+                                                             },
+                                                             {
+                                                                 "title":  "O211672",
+                                                                 "file":  "O211672 .pdf"
+                                                             },
+                                                             {
+                                                                 "title":  "PTYP06N02",
+                                                                 "file":  "PTYP06N02.pdf"
+                                                             },
+                                                             {
+                                                                 "title":  "1771386 - Recommended spares new SX500 wrong quote",
+                                                                 "file":  "1771386 - Recommended spares new SX500 wrong quote.pdf"
+                                                             },
+                                                             {
+                                                                 "title":  "Turning ON-OFF Out of Bounds Reject SensorX",
+                                                                 "file":  "Turning ON-OFF Out of Bounds Reject SensorX.pdf"
+                                                             },
+                                                             {
+                                                                 "title":  "Breast X Ray 1",
+                                                                 "file":  "Breast X Ray 1.jpg"
+                                                             },
+                                                             {
+                                                                 "title":  "Breast X Ray 2",
+                                                                 "file":  "Breast X Ray 2.jpg"
                                                              }
                                                          ]
                                            }
