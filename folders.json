@@ -84,10 +84,6 @@
                                                "name":  "Breast Skinner Training Video",
                                                "path":  "pdf/Baader Linco/Breast Skinner Training Video",
                                                "files":  [
-                                                             {
-                                                                 "title":  "Skinner 625 Maintenance",
-                                                                 "file":  "Skinner 625 Maintenance"
-                                                             }
                                                          ]
                                            },
                                            {
@@ -1748,7 +1744,7 @@
                                                              },
                                                              {
                                                                  "title":  "D-Series Power Supply G12 V1.24-2.25 Manual",
-                                                                 "file":  "D-Series_PowerSupplyG12_V1.242.25_Manual-1.pdf"
+                                                                 "file":  "D-Series_PowerSupplyG12_V1.24-2.25_Manual-1.pdf"
                                                              },
                                                              {
                                                                  "title":  "Spare Parts Quote with Drawings",
@@ -2589,7 +2585,7 @@
                                        ]
                     },
                     {
-                        "name":  "SullAir",
+                        "name":  "Sullair",
                         "path":  "pdf/SullAir",
                         "files":  [
 
